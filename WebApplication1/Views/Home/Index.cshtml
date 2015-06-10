@@ -1,0 +1,13 @@
+﻿@model string
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (@Html.BeginForm())
+{
+    @Html.TextBox("url")
+    <input type="submit" />
+}
+<div class=""> </div>
+@Html.Raw(Model)
