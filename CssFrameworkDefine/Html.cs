@@ -8,7 +8,7 @@ using HtmlAgilityPack;
 
 namespace CssFrameworkDefine
 {
-    public class Html
+    public static class Html
     {
         public static string Load(string url)
         {

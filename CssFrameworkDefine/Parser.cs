@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 using System.Text.RegularExpressions;
-
+using System.IO;
+using System.Web.Mvc;
+using System.Web;
 namespace CssFrameworkDefine
 {
     public class Parser
@@ -18,7 +20,7 @@ namespace CssFrameworkDefine
         public Parser(string url)
         {
             Url = url;
-            BaseUrl = "http://" + url.Split('/')[2];
+            BaseUrl = "http://" + url.Split('/')[2]+'/';
             siteHtml = new HtmlDocument();
             SearchinFramework = new List<CssFrameworkIdentity>();
             var s = Html.Load(url);
@@ -36,7 +38,7 @@ namespace CssFrameworkDefine
         private void ParseCss(CssFrameworkIdentity css, string url)
         {
             if (!url.Contains("http://"))
-                url = BaseUrl + url.Substring(url.IndexOf('/'));
+                url = BaseUrl + url;
             string cssText;
             try
             {
@@ -46,11 +48,16 @@ namespace CssFrameworkDefine
             {
                 return;
             }
-            foreach (var searchCss in css.NameOfClassInCss)
-            {
-                css.FindMatchesInCss += new Regex(searchCss).Matches(cssText).Count;
-            }
+            ExCSS.Parser parsingCss = new ExCSS.Parser();
+            var stylesheet = parsingCss.Parse(cssText);
+                   
 
+            var original = File.ReadAllText(System.Web.HttpContext.Current.Server.MapPath("~/Content/bootstrap.min.css"));
+
+            ExCSS.Parser parsingOriginalCss = new ExCSS.Parser();
+            var stylesheetOriginal = parsingOriginalCss.Parse(original);
+
+            CssComparer.Compare(stylesheetOriginal, stylesheet);
         }
         private void CheckClasses(CssFrameworkIdentity classes)
         {
