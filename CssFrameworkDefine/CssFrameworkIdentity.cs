@@ -13,25 +13,13 @@ namespace CssFrameworkDefine
         /// </summary>
         public string FrameworkName { get; set; }
         /// <summary>
-        /// Regex name of link 
+        /// Class names are the same as the implementation
         /// </summary>
-        public List<string> SearchLinks { get; set; }
-        /// <summary>
-        /// Regex names of the classes that can be used by the framework
-        /// </summary>
-        public List<string> SearchDivClasses { get; set; }
-        /// <summary>
-        /// Regex names of the classes thet can be used by the framework in css
-        /// </summary>
-        public List<string> NameOfClassInCss { get; set; }
-        ///<summary>
-        /// Regex names of the classes thet can be used by the framework in css
-        /// </summary>
-        public List<string> JsContent { get; set; }
+        public List<string> matchesCss;
         /// <summary>
         /// Results links from SearchLinks
         /// </summary>
-        public List<HtmlNode> FindLinks { get; set; }
+        public List<string> FindLinks { get; set; }
         /// <summary>
         /// Result classes from class search
         /// </summary>
@@ -41,10 +29,12 @@ namespace CssFrameworkDefine
         /// </summary>
         public int FindMatchesInCss {get;  set;}
 
+        public List<string> Paths { get; set; }
+
         public CssFrameworkIdentity()
         {
             FindClasses = new List<HtmlNode>();
-            FindLinks = new List<HtmlNode>();
+            FindLinks = new List<string>();
         }
 
 

@@ -1,4 +1,5 @@
-﻿@model string
+﻿@model WebApplication1.Models.FrameworkInfoModel
+
 @{
     ViewBag.Title = "Index";
 }
@@ -9,5 +10,19 @@
     @Html.TextBox("url")
     <input type="submit" />
 }
-<div class=""> </div>
-@Html.Raw(Model)
+<h1>Using frameworks</h1>
+<div class="form-group">
+    <table class="table">
+        @foreach (var x in Model.Frameworks)
+        {
+            <tr>
+                <td>
+                    @x.Name
+                </td>
+                <td>
+                    are using: @x.UsePersent.ToString("0.00")
+                </td>
+            </tr>
+        }
+    </table>
+</div>
