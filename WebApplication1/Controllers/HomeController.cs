@@ -18,6 +18,11 @@ namespace WebApplication1.Controllers
                 FrameworkName = "Bootstrap",
                 Paths = new List<string> { System.Web.HttpContext.Current.Server.MapPath("~/Content/bootstrap.min.css") },
             });
+            frameworks.Add(new CssFrameworkIdentity
+            {
+                FrameworkName = "Foundation",
+                Paths = new List<string> { System.Web.HttpContext.Current.Server.MapPath("~/Content/foundation/foundation.css") },
+            });
         }
         // GET: Home
         public ActionResult Index()

@@ -16,7 +16,7 @@ namespace CssFrameworkDefine
                 foreach(var originalClass in original.StyleRules.Where(x=> String.Compare(x.Value, comparedClass.Value) == 0))
                 {
                     double k = (double)LevenshteinDistance(originalClass.ToString(), comparedClass.ToString()) / originalClass.ToString().Length;
-                    if (k<0.5)
+                    if (k<0.7)
                         matches.Add(originalClass.Value);
                 }
             }

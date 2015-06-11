@@ -116,8 +116,12 @@ namespace CssFrameworkDefine
                     continue;
 
                 string hrefValue = href.Value;
+                if (hrefValue.Contains("//") && !hrefValue.Contains("http://"))
+                    hrefValue = "http:" + hrefValue;
+                else
                 if (!hrefValue.Contains("http://"))
                     hrefValue = BaseUrl + hrefValue;
+                
                 ParseCss(hrefValue);
                 SearchinFramework.FindLinks.Add(hrefValue);
             }
