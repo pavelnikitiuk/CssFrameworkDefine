@@ -28,6 +28,11 @@ namespace CssFrameworkDefine
         /// Result of serch in css
         /// </summary>
         public int FindMatchesInCss {get;  set;}
+        /// <summary>
+        /// The number of classes to be used this framework
+        /// </summary>
+        public int UsesClassesCount { get; set; }
+        public int AllClassCount { get; set; }
 
         public List<string> Paths { get; set; }
 

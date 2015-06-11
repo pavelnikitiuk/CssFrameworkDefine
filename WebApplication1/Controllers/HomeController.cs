@@ -54,8 +54,8 @@ namespace WebApplication1.Controllers
                 model.Frameworks.Add(new FrameworkModel
                 {
                     Name = framework.FrameworkName,
-                    MatchCount = p.UsesClassesCount,
-                    UsePersent = (double)framework.matchesCss.Count / p.AllClassCount*100
+                    MatchCount = framework.UsesClassesCount,
+                    UsePersent = (double)framework.matchesCss.Count / framework.AllClassCount * 100
                 });
             }
             try

@@ -35,11 +35,7 @@ namespace CssFrameworkDefine
         /// HtmlDokument website
         /// </summary>
         private HtmlDocument siteHtml;
-        /// <summary>
-        /// The number of classes to be used this framework
-        /// </summary>
-        public int UsesClassesCount { get; set; }
-        public int AllClassCount { get; set; }
+        
         /// <summary>
         /// Path to original css
         /// </summary>
@@ -47,9 +43,9 @@ namespace CssFrameworkDefine
 
         public Parser()
         {
-            AllClassCount = 0;
-            
-            UsesClassesCount = 0;
+            //SearchinFramework.AllClassCount = 0;
+
+            //SearchinFramework.UsesClassesCount = 0;
             siteHtml = new HtmlDocument();
 
             
@@ -59,10 +55,10 @@ namespace CssFrameworkDefine
         /// </summary>
         public void Parse()
         {
-            AllClassCount = 0;
+            //AllClassCount = 0;
             SearchinFramework.matchesCss = new List<string>();
             
-            UsesClassesCount = 0;
+            //UsesClassesCount = 0;
             if (Url == null)
                 throw new UrlNotFounException("You must specify the url");
             siteHtml.LoadHtml(Html.Load(Url));
@@ -90,7 +86,7 @@ namespace CssFrameworkDefine
             var stylesheetOriginal = parsingCss.Parse(original);
             //Compare two css
             SearchinFramework.matchesCss.AddRange(CssComparer.Compare(stylesheetOriginal, stylesheet));
-            AllClassCount += stylesheet.StyleRules.Count;
+            SearchinFramework.AllClassCount += stylesheet.StyleRules.Count;
         }
         private void CheckClasses()
         {
@@ -98,7 +94,7 @@ namespace CssFrameworkDefine
             {
                 var useClasses = siteHtml.DocumentNode.SelectNodes(string.Format("//*[contains(@class,'{0}')]", css));
                 if (useClasses != null)
-                    UsesClassesCount += useClasses.Count;
+                    SearchinFramework.UsesClassesCount += useClasses.Count;
             }
         }
         /// <summary>
