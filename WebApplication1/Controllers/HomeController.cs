@@ -23,6 +23,11 @@ namespace WebApplication1.Controllers
                 FrameworkName = "Foundation",
                 Paths = new List<string> { System.Web.HttpContext.Current.Server.MapPath("~/Content/foundation/foundation.css") },
             });
+            frameworks.Add(new CssFrameworkIdentity
+            {
+                FrameworkName = "Uikit",
+                Paths = new List<string> { System.Web.HttpContext.Current.Server.MapPath("~/Content/css/uikit.almost-flat.min.css") },
+            });
         }
         // GET: Home
         public ActionResult Index()
