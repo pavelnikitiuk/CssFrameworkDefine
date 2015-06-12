@@ -101,13 +101,51 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\css\uikit.almost-flat.css" />
-    <Content Include="Content\css\uikit.almost-flat.min.css" />
-    <Content Include="Content\css\uikit.gradient.css" />
-    <Content Include="Content\css\uikit.gradient.min.css" />
-    <Content Include="Content\css\uikit.min.css" />
-    <Content Include="Content\foundation\foundation.css" />
-    <Content Include="Content\foundation\foundation.mvc.css" />
+    <Content Include="Content\css\Blueprint\ie.css" />
+    <Content Include="Content\css\Blueprint\print.css" />
+    <Content Include="Content\css\Blueprint\screen.css" />
+    <Content Include="Content\css\Bootstrap\bootstrap-theme.min.css" />
+    <Content Include="Content\css\Bootstrap\bootstrap.min.css" />
+    <Content Include="Content\css\Foundation\foundation.min.css" />
+    <Content Include="Content\css\G5Framework\base.css" />
+    <Content Include="Content\css\G5Framework\demo-page.css" />
+    <Content Include="Content\css\G5Framework\fonts.css" />
+    <Content Include="Content\css\G5Framework\form.css" />
+    <Content Include="Content\css\G5Framework\global-classes.css" />
+    <Content Include="Content\css\G5Framework\grids.css" />
+    <Content Include="Content\css\G5Framework\media.css" />
+    <Content Include="Content\css\G5Framework\modal.css" />
+    <Content Include="Content\css\G5Framework\reset.css" />
+    <Content Include="Content\css\G5Framework\tabs.css" />
+    <Content Include="Content\css\Kube\kube.css" />
+    <Content Include="Content\css\Kube\kube.min.css" />
+    <Content Include="Content\css\960\960.css" />
+    <Content Include="Content\css\960\960_12_col.css" />
+    <Content Include="Content\css\960\960_12_col_rtl.css" />
+    <Content Include="Content\css\960\960_16_col.css" />
+    <Content Include="Content\css\960\960_16_col_rtl.css" />
+    <Content Include="Content\css\960\960_24_col.css" />
+    <Content Include="Content\css\960\960_24_col_rtl.css" />
+    <Content Include="Content\css\960\960_rtl.css" />
+    <Content Include="Content\css\960\demo.css" />
+    <Content Include="Content\css\960\reset.css" />
+    <Content Include="Content\css\960\reset_rtl.css" />
+    <Content Include="Content\css\960\text.css" />
+    <Content Include="Content\css\960\text_rtl.css" />
+    <Content Include="Content\css\Less\main-16px.css" />
+    <Content Include="Content\css\Less\main-17px.css" />
+    <Content Include="Content\css\Less\main-18px.css" />
+    <Content Include="Content\css\Semantic\semantic.css" />
+    <Content Include="Content\css\Semantic\semantic.min.css" />
+    <Content Include="Content\css\Skeleton\normalize.css" />
+    <Content Include="Content\css\Skeleton\skeleton.css" />
+    <Content Include="Content\css\UIKit\uikit.almost-flat.css" />
+    <Content Include="Content\css\UIKit\uikit.almost-flat.min.css" />
+    <Content Include="Content\css\UIKit\uikit.gradient.css" />
+    <Content Include="Content\css\UIKit\uikit.gradient.min.css" />
+    <Content Include="Content\css\UIKit\uikit.min.css" />
+    <Content Include="Content\css\Foundation\foundation.css" />
+    <Content Include="Content\css\Foundation\foundation.mvc.css" />
     <Content Include="Content\foundation\normalize.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -160,6 +198,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\FrameworkInfoModel.cs" />
+    <Compile Include="Plugins\FrameworkLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

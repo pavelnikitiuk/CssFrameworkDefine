@@ -6,28 +6,38 @@ using System.Threading.Tasks;
 
 namespace CssFrameworkDefine
 {
-    public static class CssComparer
+    internal static class CssComparer
     {
-        public static List<string> Compare(ExCSS.StyleSheet original, ExCSS.StyleSheet compared)
+        public static List<string> Compare(IList<ExCSS.StyleRule> originalRule, IList<ExCSS.StyleRule> comparedRule)
         {
             List<string> matches = new List<string>();
-            foreach(var comparedClass in compared.StyleRules)
+            int i = 0; int j = 0;
+
+            while (i < originalRule.Count && j < comparedRule.Count)
             {
-                foreach(var originalClass in original.StyleRules.Where(x=> String.Compare(x.Value, comparedClass.Value) == 0))
+                int k = String.Compare(originalRule[i].Value, comparedRule[j].Value);
+                if (k == 0)
                 {
-                    double k = (double)LevenshteinDistance(originalClass.ToString(), comparedClass.ToString()) / originalClass.ToString().Length;
-                    if (k<0.7)
-                        matches.Add(originalClass.Value);
+                    string original = originalRule[i].ToString();
+                    string compared = comparedRule[j].ToString();
+                    if ((double)LevenshteinDistance(original, compared) / original.Length < 0.7)
+                        matches.Add(originalRule[i].Value);
+                    i++; j++;
                 }
+                else
+                    if (k > 0)
+                        j++;
+                    else
+                        i++;
             }
             return matches;
         }
 
         public static int LevenshteinDistance(string string1, string string2)
         {
-            if (string1 == null) 
+            if (string1 == null)
                 throw new ArgumentNullException("string1");
-            if (string2 == null) 
+            if (string2 == null)
                 throw new ArgumentNullException("string2");
             int diff;
             int[,] m = new int[string1.Length + 1, string2.Length + 1];

@@ -34,36 +34,35 @@ namespace CssFrameworkDefine
         /// <summary>
         /// HtmlDokument website
         /// </summary>
-        private HtmlDocument siteHtml;
-        
+        private HtmlDocument siteHtml = new HtmlDocument();
+
         /// <summary>
         /// Path to original css
         /// </summary>
         public string CssPath { get; set; }
 
-        public Parser()
-        {
-            //SearchinFramework.AllClassCount = 0;
+        private List<ExCSS.StyleSheet> styles;
 
-            //SearchinFramework.UsesClassesCount = 0;
-            siteHtml = new HtmlDocument();
-
-            
-        }
         /// <summary>
         /// Start parse
         /// </summary>
         public void Parse()
         {
+           
             //AllClassCount = 0;
             SearchinFramework.matchesCss = new List<string>();
-            
-            //UsesClassesCount = 0;
-            if (Url == null)
-                throw new UrlNotFounException("You must specify the url");
-            siteHtml.LoadHtml(Html.Load(Url));
-            CheckLinks();
             CheckClasses();
+            //Compare two css
+            foreach (var style in styles)
+            {
+                var result = CssComparer.Compare(SearchinFramework.Stylesheet, style.StyleRules.OrderBy(x => x.Value).ToList());
+                if (result.Count != 0)
+                {
+                    SearchinFramework.matchesCss.AddRange(result);
+                    SearchinFramework.AllClassCount += style.StyleRules.Count;
+                }
+            }
+
         }
         /// <summary>
         /// Load Css file and parse him
@@ -78,15 +77,16 @@ namespace CssFrameworkDefine
             catch { return; }
             //Parse load Css
             ExCSS.Parser parsingCss = new ExCSS.Parser();
-            var stylesheet = parsingCss.Parse(cssText);
-            //Parse original css
-            if (SearchinFramework.Paths[0] == null || !File.Exists(SearchinFramework.Paths[0]))
-                throw new PathNotFounException("Can not find file!");
-            var original = File.ReadAllText(SearchinFramework.Paths[0]);
-            var stylesheetOriginal = parsingCss.Parse(original);
-            //Compare two css
-            SearchinFramework.matchesCss.AddRange(CssComparer.Compare(stylesheetOriginal, stylesheet));
-            SearchinFramework.AllClassCount += stylesheet.StyleRules.Count;
+            styles.Add(parsingCss.Parse(cssText));
+        }
+        public Parser(string url)
+        {
+            if (url == null)
+                throw new UrlNotFounException("You must specify the url");
+            Url = url;
+            siteHtml.LoadHtml(Html.Load(Url));
+            styles = new List<ExCSS.StyleSheet>();
+            CheckLinks();
         }
         private void CheckClasses()
         {
@@ -112,14 +112,14 @@ namespace CssFrameworkDefine
                     continue;
 
                 string hrefValue = href.Value;
-                if (hrefValue.Contains("//") && !hrefValue.Contains("http://"))
-                    hrefValue = "http:" + hrefValue;
+                if (hrefValue.Contains("//") && !hrefValue.Contains("https://"))
+                    hrefValue = "https:" + hrefValue;
                 else
-                if (!hrefValue.Contains("http://"))
-                    hrefValue = BaseUrl + hrefValue;
-                
+                    if (!hrefValue.Contains("https://"))
+                        hrefValue = BaseUrl + hrefValue;
+
                 ParseCss(hrefValue);
-                SearchinFramework.FindLinks.Add(hrefValue);
+                // SearchinFramework.FindLinks.Add(hrefValue);
             }
             return 0;
         }

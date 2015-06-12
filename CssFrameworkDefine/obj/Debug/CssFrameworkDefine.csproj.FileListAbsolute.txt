@@ -3,7 +3,6 @@ D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\bin\Debug\CssFrameworkDe
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\bin\Debug\HtmlAgilityPack.dll
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\bin\Debug\HtmlAgilityPack.pdb
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\bin\Debug\HtmlAgilityPack.xml
-D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\obj\Debug\CssFrameworkDefine.csprojResolveAssemblyReference.cache
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\obj\Debug\CssFrameworkDefine.dll
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\obj\Debug\CssFrameworkDefine.pdb
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\bin\Debug\ExCSS.dll
