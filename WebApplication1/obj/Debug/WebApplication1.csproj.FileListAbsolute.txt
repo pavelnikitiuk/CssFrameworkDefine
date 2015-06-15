@@ -29,3 +29,5 @@ D:\projects\Other\CssFrameworkDefine\WebApplication1\bin\WebGrease.dll
 D:\projects\Other\CssFrameworkDefine\WebApplication1\bin\Antlr3.Runtime.pdb
 D:\projects\Other\CssFrameworkDefine\WebApplication1\bin\Newtonsoft.Json.xml
 D:\projects\Other\CssFrameworkDefine\WebApplication1\bin\System.Web.Optimization.xml
+D:\projects\Other\CssFrameworkDefine\WebApplication1\bin\WebApplication1.dll.CodeAnalysisLog.xml
+D:\projects\Other\CssFrameworkDefine\WebApplication1\bin\WebApplication1.dll.lastcodeanalysissucceeded
