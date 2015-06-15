@@ -24,7 +24,6 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public ActionResult Index(string url)
         {
-            Stopwatch t = new Stopwatch();
             t.Start();
             FrameworkInfoModel model = new FrameworkInfoModel
             {
@@ -45,7 +44,6 @@ namespace WebApplication1.Controllers
                 });
             }
 
-            t.Stop();
 
             return View(model);
         }
