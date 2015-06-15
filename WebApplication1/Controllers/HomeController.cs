@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using WebApplication1.Models;
 using CssFrameworkDefine;
+using System.Diagnostics;
 
 namespace WebApplication1.Controllers
 {
@@ -40,7 +41,8 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public ActionResult Index(string url)
         {
-            
+            Stopwatch t = new Stopwatch();
+            t.Start();
             FrameworkInfoModel model = new FrameworkInfoModel
             {
                 Frameworks = new List<FrameworkModel>()
@@ -54,17 +56,11 @@ namespace WebApplication1.Controllers
                 {
                     Name = framework.FrameworkName,
                     MatchCount = framework.UsesClassesCount,
-                    UsePersent = (double)framework.matchesCss.Count
+                    UsePersent = framework.matchesCss.Count
                 });
             }
-            try
-            {
 
-            }
-            catch
-            {
-
-            }
+            t.Stop();
 
             return View(model);
         }

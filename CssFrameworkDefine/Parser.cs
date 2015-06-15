@@ -20,13 +20,14 @@ namespace CssFrameworkDefine
             set
             {
                 _url = value;
-                BaseUrl = "http://" + value.Split('/')[2] + '/';
+                baseUrl = scheme + "//" + value.Split('/')[2] + '/';
             }
         }
         /// <summary>
         /// Base url website
         /// </summary>
-        private string BaseUrl { get; set; }
+        private string baseUrl { get; set; }
+        private string scheme;
         /// <summary>
         /// Class CssFrameworkIdentity which will be searched
         /// </summary>
@@ -83,6 +84,7 @@ namespace CssFrameworkDefine
         {
             if (url == null)
                 throw new UrlNotFounException("You must specify the url");
+            scheme = url.Contains("https") ? "https:" : "http:";
             Url = url;
             siteHtml.LoadHtml(Html.Load(Url));
             styles = new List<ExCSS.StyleSheet>();
@@ -104,19 +106,19 @@ namespace CssFrameworkDefine
         /// <returns></returns>
         private int CheckLinks()
         {
-            foreach (HtmlNode link in siteHtml.DocumentNode.SelectNodes("//link[@href]"))
+            foreach (HtmlNode link in siteHtml.DocumentNode.SelectNodes("//link[@rel='stylesheet']"))
             {
 
                 var href = link.Attributes.FirstOrDefault(x => x.Name == "href"); //take href
-                if (href == null || link.Attributes.FirstOrDefault(x => x.Name == "rel").Value != "stylesheet")
+                if (href == null)
                     continue;
 
                 string hrefValue = href.Value;
-                if (hrefValue.Contains("//") && !hrefValue.Contains("https://"))
-                    hrefValue = "https:" + hrefValue;
+                if (hrefValue.Contains("//") && !hrefValue.Contains("http"))
+                    hrefValue = scheme + hrefValue;
                 else
-                    if (!hrefValue.Contains("https://"))
-                        hrefValue = BaseUrl + hrefValue;
+                    if (!hrefValue.Contains("http"))
+                        hrefValue = baseUrl + hrefValue;
 
                 ParseCss(hrefValue);
                 // SearchinFramework.FindLinks.Add(hrefValue);
