@@ -91,7 +91,7 @@ namespace CssFrameworkDefine
                 }
             }
             
-            CheckClasses();
+           // CheckClasses();
 
         }
 

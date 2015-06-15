@@ -48,7 +48,7 @@
     <Compile Include="CssComparer.cs" />
     <Compile Include="CssFrameworkIdentity.cs" />
     <Compile Include="Html.cs" />
-    <Compile Include="Parser.cs" />
+    <Compile Include="Definer.cs" />
     <Compile Include="ParserExceptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
