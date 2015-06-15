@@ -38,9 +38,8 @@ namespace CssFrameworkDefine
                 int k = String.Compare(originalRule[i].Value, comparedRule[j].Value);
                 if (k == 0)
                 {
-                    var compared = comparedRule[j].Declarations.Properties.OrderBy(x => x.Name);
 
-                    if(CompareProperties(originalRule[i].Declarations.Properties,compared))
+                    if(CompareProperties(originalRule[i].Declarations.Properties,comparedRule[j].Declarations.Properties))
                         matches.Add(originalRule[i].Value);
                     i++; j++;
                 }

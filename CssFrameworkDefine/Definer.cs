@@ -43,7 +43,7 @@ namespace CssFrameworkDefine
         /// </summary>
         public string CssPath { get; set; }
 
-        private List<ExCSS.StyleSheet> styles;
+        private  List<List<ExCSS.StyleRule>> styles;
 
 
 
@@ -65,7 +65,7 @@ namespace CssFrameworkDefine
             {
                 throw ;
             }
-            styles = new List<ExCSS.StyleSheet>();
+            styles = new List<List<ExCSS.StyleRule>>();
 
             LoadLinks();
         }
@@ -83,11 +83,11 @@ namespace CssFrameworkDefine
 
             foreach (var style in styles)
             {
-                var result = CssComparer.Compare(SearchinFramework.Stylesheet, style.StyleRules.OrderBy(x => x.Value).ToList());
+                var result = CssComparer.Compare(SearchinFramework.Stylesheet, style);
                 if (result.Count != 0)
                 {
                     SearchinFramework.MatchesCss.AddRange(result);
-                    SearchinFramework.AllClassCount += style.StyleRules.Count;
+                    SearchinFramework.AllClassCount += style.Count;
                 }
             }
             
@@ -118,16 +118,32 @@ namespace CssFrameworkDefine
 
             //Add styleRules from css
             ExCSS.Parser parsingCss = new ExCSS.Parser();
-            styles.Add(parsingCss.Parse(cssText));
+
+            styles.Add(parsingCss.Parse(cssText).StyleRules.OrderBy(x => x.Value).ToList());
+
+            SortProperties();
         }
         
+        private void SortProperties()
+        {
+            var style = styles.Last();
+            for (int i = 0; i < style.Count; i++)
+            {
+                var sortRule = style[i].Declarations.Properties.OrderBy(x => x.Name).ToList();
+                for (int j = 0; j < sortRule.Count; j++)
+                {
+                    style[i].Declarations.Properties[j] = sortRule[j];
+                }
+            }
+
+        }
       
         /// <summary>
         /// Finde links on css and parse it
         /// </summary>
         /// <param name="classes"></param>
         /// <returns></returns>
-        private int LoadLinks()
+        private void LoadLinks()
         {
             foreach (HtmlNode link in siteHtml.DocumentNode.SelectNodes("//link[@rel='stylesheet']"))
             {
@@ -136,7 +152,7 @@ namespace CssFrameworkDefine
                     continue;
                 ParseCss(MakeUrl(href.Value));
             }
-            return 0;
+           
         }
 
         private string MakeUrl(string str)

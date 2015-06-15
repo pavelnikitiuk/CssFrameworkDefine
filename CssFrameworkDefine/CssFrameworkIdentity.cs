@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using HtmlAgilityPack;
 using ExCSS;
 using System.IO;
+using System.Diagnostics;
 namespace CssFrameworkDefine
 {
     public class CssFrameworkIdentity
@@ -57,7 +58,8 @@ namespace CssFrameworkDefine
             }
             
             Stylesheet = Stylesheet.OrderBy(x => x.Value).ToList();
-
+            Stopwatch t = new Stopwatch();
+            t.Start();
             for (int i = 0; i < Stylesheet.Count; i++)
             {
                 var sortRule = Stylesheet[i].Declarations.Properties.OrderBy(x => x.Name).ToList();
@@ -66,6 +68,7 @@ namespace CssFrameworkDefine
                     Stylesheet[i].Declarations.Properties[j] = sortRule[j];
                 }
             }
+            t.Stop();
         }
     }
 }

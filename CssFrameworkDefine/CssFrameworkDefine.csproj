@@ -48,7 +48,6 @@
   <ItemGroup>
     <Compile Include="CssComparer.cs" />
     <Compile Include="CssFrameworkIdentity.cs" />
-    <Compile Include="CssStyleRules.cs" />
     <Compile Include="Html.cs" />
     <Compile Include="Definer.cs" />
     <Compile Include="ParserExceptions.cs" />
