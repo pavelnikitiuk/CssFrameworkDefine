@@ -45,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompareStylesheet.cs" />
     <Compile Include="CssComparer.cs" />
     <Compile Include="CssFrameworkIdentity.cs" />
     <Compile Include="Html.cs" />

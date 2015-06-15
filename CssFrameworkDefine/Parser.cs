@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 using HtmlAgilityPack;
 using System.Text.RegularExpressions;
 using System.IO;
+using System.Net;
 namespace CssFrameworkDefine
 {
-    public class Parser
+    public class Definer
     {
         private string _url;
         public string Url
@@ -44,26 +45,64 @@ namespace CssFrameworkDefine
 
         private List<ExCSS.StyleSheet> styles;
 
+
+
+
+        public Definer(string url)
+        {
+            if (!Regex.IsMatch(url,@"^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$"))
+                throw new UrlNotFounException("You must specify the url");
+
+            scheme = url.Contains("https") ? "https:" : "http:";
+
+            Url = url;
+
+            try
+            {
+                siteHtml.LoadHtml(Html.Load(Url));
+            }
+            catch 
+            {
+                throw ;
+            }
+            styles = new List<ExCSS.StyleSheet>();
+
+            LoadLinks();
+        }
+
+
+
+
         /// <summary>
         /// Start parse
         /// </summary>
-        public void Parse()
+        public void Define()
         {
            
-            //AllClassCount = 0;
-            SearchinFramework.matchesCss = new List<string>();
-            CheckClasses();
-            //Compare two css
+            SearchinFramework.MatchesCss = new List<string>();
+
             foreach (var style in styles)
             {
                 var result = CssComparer.Compare(SearchinFramework.Stylesheet, style.StyleRules.OrderBy(x => x.Value).ToList());
                 if (result.Count != 0)
                 {
-                    SearchinFramework.matchesCss.AddRange(result);
+                    SearchinFramework.MatchesCss.AddRange(result);
                     SearchinFramework.AllClassCount += style.StyleRules.Count;
                 }
             }
+            
+            CheckClasses();
 
+        }
+
+        private void CheckClasses()
+        {
+            foreach (var css in SearchinFramework.MatchesCss)
+            {
+                var useClasses = siteHtml.DocumentNode.SelectNodes(string.Format("//*[contains(@class,'{0}')]", css));
+                if (useClasses != null)
+                    SearchinFramework.UsesClassesCount += useClasses.Count;
+            }
         }
         /// <summary>
         /// Load Css file and parse him
@@ -76,54 +115,38 @@ namespace CssFrameworkDefine
             string cssText;
             try { cssText = Html.Load(url); }
             catch { return; }
-            //Parse load Css
+
+            //Add styleRules from css
             ExCSS.Parser parsingCss = new ExCSS.Parser();
             styles.Add(parsingCss.Parse(cssText));
         }
-        public Parser(string url)
-        {
-            if (url == null)
-                throw new UrlNotFounException("You must specify the url");
-            scheme = url.Contains("https") ? "https:" : "http:";
-            Url = url;
-            siteHtml.LoadHtml(Html.Load(Url));
-            styles = new List<ExCSS.StyleSheet>();
-            CheckLinks();
-        }
-        private void CheckClasses()
-        {
-            foreach (var css in SearchinFramework.matchesCss)
-            {
-                var useClasses = siteHtml.DocumentNode.SelectNodes(string.Format("//*[contains(@class,'{0}')]", css));
-                if (useClasses != null)
-                    SearchinFramework.UsesClassesCount += useClasses.Count;
-            }
-        }
+        
+      
         /// <summary>
         /// Finde links on css and parse it
         /// </summary>
         /// <param name="classes"></param>
         /// <returns></returns>
-        private int CheckLinks()
+        private int LoadLinks()
         {
             foreach (HtmlNode link in siteHtml.DocumentNode.SelectNodes("//link[@rel='stylesheet']"))
             {
-
                 var href = link.Attributes.FirstOrDefault(x => x.Name == "href"); //take href
                 if (href == null)
                     continue;
-
-                string hrefValue = href.Value;
-                if (hrefValue.Contains("//") && !hrefValue.Contains("http"))
-                    hrefValue = scheme + hrefValue;
-                else
-                    if (!hrefValue.Contains("http"))
-                        hrefValue = baseUrl + hrefValue;
-
-                ParseCss(hrefValue);
-                // SearchinFramework.FindLinks.Add(hrefValue);
+                ParseCss(MakeUrl(href.Value));
             }
             return 0;
+        }
+
+        private string MakeUrl(string str)
+        {
+            if (str.Contains("//") && !str.Contains("http"))
+                str = scheme + str;
+            else
+                if (!str.Contains("http"))
+                    str = baseUrl + str;
+            return str;
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 using ExCSS;
+using System.IO;
 namespace CssFrameworkDefine
 {
     public class CssFrameworkIdentity
@@ -13,22 +14,15 @@ namespace CssFrameworkDefine
         /// Name of Framework
         /// </summary>
         public string FrameworkName { get; set; }
+
+
         /// <summary>
         /// Class names are the same as the implementation
         /// </summary>
-        public List<string> matchesCss;
-        /// <summary>
-        /// Results links from SearchLinks
-        /// </summary>
-        public List<string> FindLinks { get; set; }
-        /// <summary>
-        /// Result classes from class search
-        /// </summary>
-        public List<HtmlNode> FindClasses { get; set; }
-        /// <summary>
-        /// Result of serch in css
-        /// </summary>
-        public int FindMatchesInCss { get; set; }
+        public List<string> MatchesCss;
+        
+
+
         /// <summary>
         /// The number of classes to be used this framework
         /// </summary>
@@ -38,11 +32,7 @@ namespace CssFrameworkDefine
 
         public List<string> Paths { get; set; }
 
-        public CssFrameworkIdentity()
-        {
-            FindClasses = new List<HtmlNode>();
-            FindLinks = new List<string>();
-        }
+        
 
         public List<StyleRule> Stylesheet { get; set; }
 
@@ -60,7 +50,9 @@ namespace CssFrameworkDefine
             foreach (var path in paths)
             {
                 Paths.Add(path);
-                var style = parser.Parse(System.IO.File.ReadAllText(path));
+                if (path == null || !File.Exists(path))
+                    throw new FileNotFoundException();
+                var style = parser.Parse(File.ReadAllText(path));
                 Stylesheet.AddRange(style.StyleRules);
             }
             Stylesheet = Stylesheet.OrderBy(x => x.Value).ToList();

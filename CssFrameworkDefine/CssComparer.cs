@@ -9,29 +9,30 @@ namespace CssFrameworkDefine
 {
     internal static class CssComparer
     {
-        public static bool CompareStringArray(IOrderedEnumerable<ExCSS.Property> originalArray, IOrderedEnumerable<ExCSS.Property> comparedArray)
+        private static bool CompareProperties(IOrderedEnumerable<ExCSS.Property> originalArray, IOrderedEnumerable<ExCSS.Property> comparedArray)
         {
             if (originalArray.Count() != comparedArray.Count())
                 return false;
             var original = originalArray.GetEnumerator();
-            original.MoveNext();
             foreach(var compared in comparedArray)
             {
+                original.MoveNext();
                 original.Current.Important = compared.Important;
                 if (String.Compare(original.Current.ToString(), compared.ToString()) != 0)
                     return false;
-                original.MoveNext();
             }
             return true;
-            
         }
+        /// <summary>
+        /// Compare two ExCSS.StylesRule and if are equal return true
+        /// </summary>
+        /// <param name="originalRule">First ExCSS.StyleRule</param>
+        /// <param name="comparedRule">Second ExCSS.StyleRule</param>
+        /// <returns>Are ExCSS.StyleRule equals</returns>
         public static List<string> Compare(IList<ExCSS.StyleRule> originalRule, IList<ExCSS.StyleRule> comparedRule)
         {
-            Stopwatch t = new Stopwatch();
-            t.Start();
             List<string> matches = new List<string>();
             int i = 0; int j = 0;
-
             while (i < originalRule.Count && j < comparedRule.Count)
             {
                 int k = String.Compare(originalRule[i].Value, comparedRule[j].Value);
@@ -39,7 +40,8 @@ namespace CssFrameworkDefine
                 {
                     var original = originalRule[i].Declarations.Properties.OrderBy(x => x.Name);
                     var compared = comparedRule[j].Declarations.Properties.OrderBy(x => x.Name);
-                    if(CompareStringArray(original,compared))
+
+                    if(CompareProperties(original,compared))
                         matches.Add(originalRule[i].Value);
                     i++; j++;
                 }
@@ -49,8 +51,6 @@ namespace CssFrameworkDefine
                     else
                         i++;
             }
-            t.Stop();
-
             return matches;
         }
     }
