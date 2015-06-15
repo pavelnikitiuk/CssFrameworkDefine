@@ -9,7 +9,7 @@ namespace CssFrameworkDefine
 {
     internal static class CssComparer
     {
-        private static bool CompareProperties(IOrderedEnumerable<ExCSS.Property> originalArray, IOrderedEnumerable<ExCSS.Property> comparedArray)
+        private static bool CompareProperties(IEnumerable<ExCSS.Property> originalArray, IEnumerable<ExCSS.Property> comparedArray)
         {
             if (originalArray.Count() != comparedArray.Count())
                 return false;
@@ -38,10 +38,9 @@ namespace CssFrameworkDefine
                 int k = String.Compare(originalRule[i].Value, comparedRule[j].Value);
                 if (k == 0)
                 {
-                    var original = originalRule[i].Declarations.Properties.OrderBy(x => x.Name);
                     var compared = comparedRule[j].Declarations.Properties.OrderBy(x => x.Name);
 
-                    if(CompareProperties(original,compared))
+                    if(CompareProperties(originalRule[i].Declarations.Properties,compared))
                         matches.Add(originalRule[i].Value);
                     i++; j++;
                 }

@@ -16,7 +16,6 @@ namespace WebApplication1.Controllers
         {
             frameworks = Plugins.FrameworkLoader.Load(System.Web.HttpContext.Current.Server.MapPath("~/Content/css/"));
         }
-      
         // GET: Home
         public ActionResult Index()
         {

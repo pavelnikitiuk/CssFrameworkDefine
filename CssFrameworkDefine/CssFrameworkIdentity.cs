@@ -55,7 +55,17 @@ namespace CssFrameworkDefine
                 var style = parser.Parse(File.ReadAllText(path));
                 Stylesheet.AddRange(style.StyleRules);
             }
+            
             Stylesheet = Stylesheet.OrderBy(x => x.Value).ToList();
+
+            for (int i = 0; i < Stylesheet.Count; i++)
+            {
+                var sortRule = Stylesheet[i].Declarations.Properties.OrderBy(x => x.Name).ToList();
+                for (int j = 0; j < sortRule.Count; j++)
+                {
+                    Stylesheet[i].Declarations.Properties[j] = sortRule[j];
+                }
+            }
         }
     }
 }
