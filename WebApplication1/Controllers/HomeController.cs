@@ -24,7 +24,6 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public ActionResult Index(string url)
         {
-            t.Start();
             FrameworkInfoModel model = new FrameworkInfoModel
             {
                 Frameworks = new List<FrameworkModel>()
