@@ -3,166 +3,83 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HtmlAgilityPack;
-using System.Text.RegularExpressions;
+using CssFrameworkDefine.Model;
+using ExCSS;
 using System.IO;
-using System.Net;
+using System.Collections;
+using System.Diagnostics;
+
 namespace CssFrameworkDefine
 {
     public class Definer
     {
-        private string _url;
-        public string Url
+        private Dictionary<string, int> CssProperties;
+
+        private List<OriginalCssFramework> originalFrameworks;
+
+        private Parser parser;
+
+        public Definer()
         {
-            get
+            CssProperties = new Dictionary<string, int>();
+            //Add all properties in dictonary
+            foreach (var property in ConstantsProperties.CssProperties)
             {
-                return _url;
+                CssProperties.Add(property.Name, property.Id);
             }
-            set
-            {
-                _url = value;
-                baseUrl = scheme + "//" + value.Split('/')[2] + '/';
-            }
-        }
-        /// <summary>
-        /// Base url website
-        /// </summary>
-        private string baseUrl { get; set; }
-        private string scheme;
-        /// <summary>
-        /// Class CssFrameworkIdentity which will be searched
-        /// </summary>
-        public CssFrameworkIdentity SearchinFramework { get; set; }
-        /// <summary>
-        /// HtmlDokument website
-        /// </summary>
-        private HtmlDocument siteHtml = new HtmlDocument();
 
-        /// <summary>
-        /// Path to original css
-        /// </summary>
-        public string CssPath { get; set; }
+            parser = new Parser();
 
-        private  List<List<ExCSS.StyleRule>> styles;
-
-
-
-
-        public Definer(string url)
-        {
-            if (!Regex.IsMatch(url,@"^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$"))
-                throw new UrlNotFounException("You must specify the url");
-
-            scheme = url.Contains("https") ? "https:" : "http:";
-
-            Url = url;
-
-            try
-            {
-                siteHtml.LoadHtml(Html.Load(Url));
-            }
-            catch 
-            {
-                throw ;
-            }
-            styles = new List<List<ExCSS.StyleRule>>();
-
-            LoadLinks();
+            originalFrameworks = new List<OriginalCssFramework>();
         }
 
-
-
-
-        /// <summary>
-        /// Start parse
-        /// </summary>
-        public void Define()
+        public void AddFramework(string name, params string[] paths)
         {
-           
-            SearchinFramework.MatchesCss = new List<string>();
-
-            foreach (var style in styles)
+            OriginalCssFramework toAdd = new OriginalCssFramework { Name = name };
+            foreach (var path in paths)
             {
-                var result = CssComparer.Compare(SearchinFramework.Stylesheet, style);
-                if (result.Count != 0)
-                {
-                    SearchinFramework.MatchesCss.AddRange(result);
-                    SearchinFramework.AllClassCount += style.Count;
-                }
-            }
-            
-           // CheckClasses();
-
-        }
-
-        private void CheckClasses()
-        {
-            foreach (var css in SearchinFramework.MatchesCss)
-            {
-                var useClasses = siteHtml.DocumentNode.SelectNodes(string.Format("//*[contains(@class,'{0}')]", css));
-                if (useClasses != null)
-                    SearchinFramework.UsesClassesCount += useClasses.Count;
+                Load(path);
             }
         }
-        /// <summary>
-        /// Load Css file and parse him
-        /// </summary>
-        /// <param name="css">original css to compare</param>
-        /// <param name="url">Css url</param>
-        private void ParseCss(string url)
+        public void AddFramework(string name, out Stopwatch time, params string[] paths)
         {
-            //Load Css 
-            string cssText;
-            try { cssText = Html.Load(url); }
-            catch { return; }
-
-            //Add styleRules from css
-            ExCSS.Parser parsingCss = new ExCSS.Parser();
-
-            styles.Add(parsingCss.Parse(cssText).StyleRules.OrderBy(x => x.Value).ToList());
-
-            SortProperties();
+            time = new Stopwatch();
+            time.Start();
+            AddFramework(name, paths);
+            time.Stop();
         }
-        
-        private void SortProperties()
-        {
-            var style = styles.Last();
-            for (int i = 0; i < style.Count; i++)
-            {
-                var sortRule = style[i].Declarations.Properties.OrderBy(x => x.Name).ToList();
-                for (int j = 0; j < sortRule.Count; j++)
-                {
-                    style[i].Declarations.Properties[j] = sortRule[j];
-                }
-            }
 
-        }
       
-        /// <summary>
-        /// Finde links on css and parse it
-        /// </summary>
-        /// <param name="classes"></param>
-        /// <returns></returns>
-        private void LoadLinks()
-        {
-            foreach (HtmlNode link in siteHtml.DocumentNode.SelectNodes("//link[@rel='stylesheet']"))
-            {
-                var href = link.Attributes.FirstOrDefault(x => x.Name == "href"); //take href
-                if (href == null)
-                    continue;
-                ParseCss(MakeUrl(href.Value));
-            }
            
+
+        private Dictionary<string,BitArray> Load(string path)
+        {
+            if (path == null)
+                throw new ArgumentNullException("Path can not be null");
+            if (!File.Exists(path))
+                throw new FileNotFoundException("This file is not exists");
+
+            return ListToDictonary(parser.Parse(File.ReadAllText(path)).StyleRules);
         }
 
-        private string MakeUrl(string str)
+        private Dictionary<string, BitArray> ListToDictonary(IList<ExCSS.StyleRule> rules)
         {
-            if (str.Contains("//") && !str.Contains("http"))
-                str = scheme + str;
-            else
-                if (!str.Contains("http"))
-                    str = baseUrl + str;
-            return str;
+            var dictonary = new Dictionary<string, BitArray>();
+            foreach (var rule in rules)
+            {
+                var mask = new BitArray(375);
+                foreach(var propery in rule.Declarations.Properties)
+                {
+                    if(CssProperties.ContainsKey(propery.Name))
+                        mask.Set(CssProperties[propery.Name], true);
+                }
+                var key = rule.Selector.ToString();
+                if (!dictonary.ContainsKey(key))
+                //    dictonary[key] = mask.Or(dictonary[key]);
+                //else
+                    dictonary.Add(key, mask);
+            }
+            return dictonary;
         }
     }
 }

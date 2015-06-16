@@ -46,11 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CssComparer.cs" />
-    <Compile Include="CssFrameworkIdentity.cs" />
-    <Compile Include="Html.cs" />
+    <Compile Include="Model\ConstantsProperties.cs" />
     <Compile Include="Definer.cs" />
-    <Compile Include="ParserExceptions.cs" />
+    <Compile Include="Model\CssInfo.cs" />
+    <Compile Include="Model\OriginalCssFramework.cs" />
+    <Compile Include="Old\CssComparer.cs" />
+    <Compile Include="Old\CssFrameworkIdentity.cs" />
+    <Compile Include="Model\CssProperty.cs" />
+    <Compile Include="Old\Html.cs" />
+    <Compile Include="Old\Definer.cs" />
+    <Compile Include="Old\ParserExceptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -19,32 +19,20 @@ namespace WebApplication1.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            Definer definer = new Definer();
+
+            Stopwatch t;
+
+            definer.AddFramework("Bootstrap",out t, frameworks.Find(x => x.FrameworkName == "Bootstrap").Paths.ToArray());
+
             return View(new FrameworkInfoModel { Frameworks = new List<FrameworkModel>() });
         }
         [HttpPost]
         public ActionResult Index(string url)
         {
-            FrameworkInfoModel model = new FrameworkInfoModel
-            {
-                Frameworks = new List<FrameworkModel>()
-            };
+            
 
-            Definer p = new Definer(url);
-
-            foreach (var framework in frameworks)
-            {
-                p.SearchinFramework = framework;
-                p.Define();
-                model.Frameworks.Add(new FrameworkModel
-                {
-                    Name = framework.FrameworkName,
-                    MatchCount = framework.UsesClassesCount,
-                    UsePersent = framework.MatchesCss.Count
-                });
-            }
-
-
-            return View(model);
+            return View();
         }
     }
 }

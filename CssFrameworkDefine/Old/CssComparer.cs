@@ -38,7 +38,6 @@ namespace CssFrameworkDefine
                 int k = String.Compare(originalRule[i].Value, comparedRule[j].Value);
                 if (k == 0)
                 {
-
                     if(CompareProperties(originalRule[i].Declarations.Properties,comparedRule[j].Declarations.Properties))
                         matches.Add(originalRule[i].Value);
                     i++; j++;
