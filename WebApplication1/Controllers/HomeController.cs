@@ -8,6 +8,7 @@ using CssFrameworkDefine;
 using CssFrameworkDefine.Old;
 using CssFrameworkDefine.Model;
 using System.Diagnostics;
+using HtmlAgilityPack;
 
 namespace WebApplication1.Controllers
 {
@@ -22,7 +23,6 @@ namespace WebApplication1.Controllers
             
 
             
-            FrameworkInfoModel model = new FrameworkInfoModel();
 
             foreach (var name in frameworks)
             {
@@ -42,18 +42,26 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public ActionResult Index(string url)
         {
-
+            Stopwatch timer = new Stopwatch();
+            
             FrameworkInfoModel model = new FrameworkInfoModel { Frameworks = new List<FrameworkModel>() };
-            string str = CssFrameworkDefine.Html.Load(url);
-
+            timer.Start();
+            CssLoader cssLoader = new CssLoader(url);
+            timer.Stop();
+            foreach(var css in cssLoader.LoadLinks())
+            {
+                var res = definer.Define(css, out t);
+                foreach (var result in res)
+                {
+                    model.Frameworks.Add(new FrameworkModel { Name = result.Key, MatchCount = result.Value, UsePersent = t.ElapsedMilliseconds });
+                }
+            }
             
 
-            var res = definer.Define(str, out t);
-
-            foreach(var result in res)
-            {
-                model.Frameworks.Add(new FrameworkModel { Name = result.Key, MatchCount = result.Value, UsePersent = t.ElapsedMilliseconds });
-            }
+            
+            
+            
+            model.Frameworks.Last().UsePersent = timer.ElapsedMilliseconds;
 
             return View(model);
         }

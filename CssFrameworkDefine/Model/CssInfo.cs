@@ -8,11 +8,11 @@ using System.Collections;
 
 namespace CssFrameworkDefine
 {
-    class CssInfo
-    {
-        public string Selector { get; set; }
+    //class CssInfo
+    //{
+    //    public string Selector { get; set; }
 
-        public BitArray Properties;
+    //    public BitArray Properties;
 
-    }
+    //}
 }
