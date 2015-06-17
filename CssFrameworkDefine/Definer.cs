@@ -35,11 +35,12 @@ namespace CssFrameworkDefine
 
         public void AddFramework(string name, params string[] paths)
         {
-            OriginalCssFramework toAdd = new OriginalCssFramework { Name = name };
+            OriginalCssFramework toAdd = new OriginalCssFramework { Name = name, Styles = new List<Dictionary<string,BitArray>>() };
             foreach (var path in paths)
             {
-                Load(path);
+                toAdd.Styles.Add(Load(path));
             }
+            originalFrameworks.Add(toAdd);
         }
         public void AddFramework(string name, out Stopwatch time, params string[] paths)
         {
@@ -49,8 +50,71 @@ namespace CssFrameworkDefine
             time.Stop();
         }
 
-      
-           
+
+        private List<string> DetectFramework(string selector, BitArray property)
+        {
+            List<string> frameworkNames = new List<string>();
+            foreach(var framework in originalFrameworks)
+            {
+                foreach(var style in framework.Styles)
+                {
+                    if (style.ContainsKey(selector))
+                    {
+                        if (CompareBitArrays(style[selector], property))
+                        {
+                            frameworkNames.Add(framework.Name);
+                            break;
+                        }
+                    }
+                    
+                }
+            }
+
+            return frameworkNames;
+        }
+
+        private static bool CompareBitArrays(BitArray first, BitArray second)
+        {
+            if (first.Length != second.Length)
+                return false;
+            for (int i = 0; i < first.Length; i++)
+                if (first[i] != second[i])
+                    return false;
+            return true;
+        }
+
+        public Dictionary<string, int> Define(string css, out Stopwatch t)
+        {
+            t = new Stopwatch();
+            t.Start();
+            var ret = Define(css);
+            t.Stop();
+            return ret;
+        }
+
+        public Dictionary<string, int> Define(string css)
+        {
+            Dictionary<string,int> results = new Dictionary<string,int>();
+
+            foreach (var framework in originalFrameworks)
+            {
+                results.Add(framework.Name,0);
+            }
+
+            var styleRules = ListToDictonary(parser.Parse(css).StyleRules);
+
+            foreach(var rule in styleRules)
+            {
+                var frameworksName = DetectFramework(rule.Key, rule.Value);
+                foreach(var name in frameworksName)
+                {
+                    results[name]++;
+                }
+            }
+
+            return results;
+        }
+
 
         private Dictionary<string,BitArray> Load(string path)
         {
@@ -74,9 +138,9 @@ namespace CssFrameworkDefine
                         mask.Set(CssProperties[propery.Name], true);
                 }
                 var key = rule.Selector.ToString();
-                if (!dictonary.ContainsKey(key))
-                //    dictonary[key] = mask.Or(dictonary[key]);
-                //else
+                if (dictonary.ContainsKey(key))
+                    dictonary[key] = mask.Or(dictonary[key]);
+                else
                     dictonary.Add(key, mask);
             }
             return dictonary;

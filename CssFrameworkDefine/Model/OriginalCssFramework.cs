@@ -11,6 +11,7 @@ namespace CssFrameworkDefine.Model
         public string Name { get; set; }
 
         public List<Dictionary<string, BitArray>> Styles { get; set; }
+
     }
 
     class Style

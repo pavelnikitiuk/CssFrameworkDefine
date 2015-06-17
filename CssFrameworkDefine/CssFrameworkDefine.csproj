@@ -49,6 +49,7 @@
     <Compile Include="Model\ConstantsProperties.cs" />
     <Compile Include="Definer.cs" />
     <Compile Include="Model\CssInfo.cs" />
+    <Compile Include="Model\DefineResult.cs" />
     <Compile Include="Model\OriginalCssFramework.cs" />
     <Compile Include="Old\CssComparer.cs" />
     <Compile Include="Old\CssFrameworkIdentity.cs" />
