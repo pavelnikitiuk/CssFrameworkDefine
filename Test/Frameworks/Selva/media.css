@@ -1,0 +1,140 @@
+/*==============================
+=            $Media            =
+==============================*/
+/*==========  $Media Images  ==========*/
+img {
+  /* Make images responsive by default */
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+  /* Images inside figure */
+}
+img[width], img[height] {
+  display: inline-block;
+}
+figure > img {
+  display: block;
+}
+
+/*==========  $Media Audio  ==========*/
+audio {
+  width: 100%;
+}
+
+/*==========  $Media Helpers  ==========*/
+img.styled {
+  background: #fafafa url(../images/loading.gif) no-repeat center;
+  border: 1px solid whitesmoke;
+  padding: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+img.light-styled, a img.light-styled {
+  border-width: 0;
+  padding: 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 6px 0 darkgrey;
+  -moz-box-shadow: inset 0 0 6px 0 darkgrey;
+  box-shadow: inset 0 0 6px 0 darkgrey;
+}
+img.unstyled, button img, a.button img {
+  background: transparent;
+  border-width: 0;
+  padding: 0;
+}
+img.alignleft, img.floatleft {
+  float: left;
+  margin-right: 9px;
+}
+img.alignright, img.floatright {
+  float: right;
+  margin-left: 9px;
+}
+img.nofloat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*==========  Captioned image  ==========*/
+.image-caption, .image-caption.alignleft, .image-caption.alignright, .image-caption.floatleft, .image-caption.floatright, .caption, .caption.alignleft, .caption.alignright, .caption.floatleft, .caption.floatright, figure.styled, figure.styled.alignleft, figure.styled.alignright, figure.styled.floatleft, figure.styled.floatright {
+  background: #fafafa;
+  border: 1px solid whitesmoke;
+  display: inline-block;
+  margin-bottom: 9px;
+  padding: 6px;
+  text-align: center;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+.image-caption.alignleft, .image-caption.floatleft, .caption.alignleft, .caption.floatleft, figure.styled.alignleft, figure.styled.floatleft {
+  float: left;
+  margin-right: 9px;
+}
+.image-caption.alignright, .image-caption.floatright, .caption.alignright, .caption.floatright, figure.styled.alignright, figure.styled.floatright {
+  float: right;
+  margin-left: 9px;
+}
+.image-caption img, .caption img, figure.styled img {
+  background: transparent;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+}
+.image-caption .caption-text, .caption .caption-text, figure.styled .caption-text {
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/*==========  Gallery  ==========*/
+.gallery {
+  overflow: hidden;
+}
+.gallery > div, .gallery > li {
+  background: #fafafa;
+  border: 1px solid whitesmoke;
+  float: left;
+  margin: 0 10px 20px;
+  padding: 6px;
+  text-align: center;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+.gallery > div a, .gallery > li a {
+  display: inline-block;
+}
+.gallery.styled > div, .gallery.styled > li {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+.gallery.light-styled > div, .gallery.light-styled > li {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+.gallery.light-styled > div img, .gallery.light-styled > li img {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/*-----  End of $Media  ------*/

@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssFrameworkDefine", "CssFrameworkDefine\CssFrameworkDefine.csproj", "{893ABBB7-7F5E-423F-9950-AA1207DCFAC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{20250B6D-8F52-4152-BD85-6E62635B5167}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{2A524ABB-A162-4343-9632-84AAFF3BA613}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{893ABBB7-7F5E-423F-9950-AA1207DCFAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893ABBB7-7F5E-423F-9950-AA1207DCFAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893ABBB7-7F5E-423F-9950-AA1207DCFAC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20250B6D-8F52-4152-BD85-6E62635B5167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20250B6D-8F52-4152-BD85-6E62635B5167}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20250B6D-8F52-4152-BD85-6E62635B5167}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20250B6D-8F52-4152-BD85-6E62635B5167}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2A524ABB-A162-4343-9632-84AAFF3BA613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2A524ABB-A162-4343-9632-84AAFF3BA613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A524ABB-A162-4343-9632-84AAFF3BA613}.Release|Any CPU.ActiveCfg = Release|Any CPU

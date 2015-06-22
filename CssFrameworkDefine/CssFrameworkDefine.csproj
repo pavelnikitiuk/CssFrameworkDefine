@@ -46,22 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CssDefineException.cs" />
     <Compile Include="Model\ConstantsProperties.cs" />
     <Compile Include="Definer.cs" />
-    <Compile Include="Model\CssInfo.cs" />
     <Compile Include="Model\OriginalCssFramework.cs" />
-    <Compile Include="Old\CssComparer.cs" />
-    <Compile Include="Old\CssFrameworkIdentity.cs" />
     <Compile Include="Model\CssProperty.cs" />
     <Compile Include="CssLoader.cs" />
-    <Compile Include="Old\Html.cs" />
-    <Compile Include="Old\Definer.cs" />
-    <Compile Include="Old\ParserExceptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -12,45 +12,55 @@ namespace Test
 
     class Program
     {
-        public static List<CssFrameworkIdentity> Load(string path)
+        public static Dictionary<string, string[]> Load(string path)
         {
-            List<CssFrameworkIdentity> frameworks = new List<CssFrameworkIdentity>();
+            Dictionary<string, string[]> frameworks = new Dictionary<string, string[]>();
             foreach (var file in Directory.GetFileSystemEntries(path))
-                frameworks.Add(new CssFrameworkIdentity(file.Split('\\').Last(), Directory.GetFiles(file).ToList()));
+                frameworks.Add(file.Split('\\').Last(), Directory.GetFiles(file));
             return frameworks;
         }
 
-        static void Main(string[] args)
+
+        public static void Start(string testsPath, string frameworksPath, string pattern = "*.txt")
         {
-            Console.WriteLine("Write path to tests");
-            //var str = Console.ReadLine();
-            var str = "D:\\tests";
+
 
             Definer d = new Definer();
-            foreach (var name in Load("D:\\CssFrameworks"))
-            {
-                d.AddFramework(name.FrameworkName, name.Paths.ToArray());
-
-
-            }
+            //Add all frameworks
+            foreach (var name in Load(frameworksPath))
+                d.AddFramework(name.Key, name.Value);
 
             Stopwatch timer = new Stopwatch();
+            timer.Start();
 
 
-            File.WriteAllText("D:\\tests\\result.txt", "");
 
-            foreach (var folder in Directory.EnumerateDirectories(str))
+            var stream = File.Create(Properties.Resources.Result);
+            stream.Dispose();
+            foreach (var file in Directory.EnumerateFiles(testsPath, pattern, SearchOption.AllDirectories))
             {
-                foreach (var file in Directory.EnumerateFiles(folder))
+                Console.WriteLine("{0}", file);
+                try
                 {
-                    Console.WriteLine("{0}", file);
-                    var res = d.Define(File.ReadAllText(file), out timer);
-                    if (res != null && res.ContainsKey(d.MostSuitableFramework) && res[d.MostSuitableFramework] > 10)
-                        File.AppendAllText("D:\\tests\\result.txt",
-                            String.Format("File: {0} use {1} time {2}   matches {3} \n", file, d.MostSuitableFramework, timer.ElapsedMilliseconds,
-                            (res != null && res.ContainsKey(d.MostSuitableFramework)) ? res[d.MostSuitableFramework].ToString() : "0"));
+                    var res = d.Define(File.ReadAllText(file));
+                    var resultframework = res[d.MostSuitableFramework];
+                    File.AppendAllText(Properties.Resources.Result,
+                        String.Format("File: {0} use {1} matches {2} \n", 
+                        file, resultframework == 0 ? Properties.Resources.UnknownFramework : d.MostSuitableFramework, resultframework));
                 }
+                catch { File.AppendAllText(Properties.Resources.Result, String.Format("{0} - it does not css\n", file)); }
             }
+            timer.Stop();
+            File.AppendAllText(Properties.Resources.Result, String.Format("Tottal time - {0}", timer.ElapsedMilliseconds.ToString()));
+        }
+
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Write path to tests floder");
+            var str = "D:\\Projects\\Tests\\CssDefiner\\Tests\\";
+            var frameworks = "D:\\CssFrameworks";
+            Start(str, frameworks);
 
         }
     }

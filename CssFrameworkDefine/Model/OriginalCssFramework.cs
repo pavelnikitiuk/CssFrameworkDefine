@@ -10,16 +10,11 @@ namespace CssFrameworkDefine.Model
     {
         public string Name { get; set; }
 
-        public List<Dictionary<string, BitArray>> Styles { get; set; }
+        public List<Dictionary<string, bool[]>> Styles { get; set; }
 
     }
 
-    class Style
-    {
-        public List<ExCSS.StyleRule> StyleRule { get; set; }
-
-        public Dictionary<string, BitArray> Selelectors { get; set; }
-    }
+   
 }
 
 

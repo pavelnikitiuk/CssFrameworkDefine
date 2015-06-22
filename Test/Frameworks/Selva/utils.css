@@ -1,0 +1,209 @@
+/*==================================
+=            $Utilities            =
+==================================*/
+/*==========  $Utils Clearfix  ==========*/
+/* Standard clearfix. */
+/* Source: http://www.contentwithstyle.co.uk/content/a-css-framework */
+* html .clearfix {
+  height: 1%;
+}
+
+/* IE6 */
+*:first-child + html .clearfix {
+  min-height: 1%;
+}
+
+/* IE7 */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Micro clearfix */
+/* Source: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf {
+  *zoom: 1;
+}
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+/*==========  $Utils Clearing  ==========*/
+.clear {
+  clear: both;
+  display: block;
+}
+
+hr.clear, hr.clearing {
+  background: transparent;
+  border: 0;
+  clear: both;
+  color: white;
+  float: none;
+  height: 0;
+  margin: 0;
+  visibility: hidden;
+  width: 100%;
+}
+
+/*==========  $Utils Display  ==========*/
+/* Screen readers can see it */
+.invisible {
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  /* IE6, IE7 */
+}
+
+/* Screen readers can not see it */
+.hidden {
+  display: none;
+}
+
+/*==========  $Utils Image replacement  ==========*/
+.imgreplace {
+  display: block;
+  text-indent: -5000em;
+}
+
+/*==========  $Utils Accesibility  ==========*/
+#skip-links {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+#skip-links a, #skip-links a:link, #skip-links a:visited {
+  background: #4e9a06;
+  color: white;
+  display: block;
+  left: -200%;
+  padding: 6px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+#skip-links a:active, #skip-links a:focus {
+  left: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+.accessibility {
+  left: -5000em;
+  position: absolute;
+}
+
+/*==========  $Resizable elements  ==========*/
+.resizable {
+  overflow: auto;
+  resize: both;
+}
+
+/*==========  $Selection styling  ==========*/
+::-moz-selection {
+  background: #4e9a06;
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background: #4e9a06;
+  color: white;
+  text-shadow: none;
+}
+
+/*==========  $Utils Semantic  ==========*/
+.alpha {
+  clear: left;
+  float: left;
+}
+
+.omega {
+  clear: right;
+  float: right;
+  margin-right: 0;
+}
+
+/*==========  $Utils Unsemantic  ==========*/
+/**
+*
+* UNLEASH THE UNSEMANTIC CLASSES!
+*
+* WARNING: Use the following classes carefully and only in extreme ocassions
+*
+**/
+/* Alignment */
+.alignleft {
+  text-align: left;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.alignjust {
+  text-align: justify;
+}
+
+/* Floating */
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.nofloat {
+  float: none;
+}
+
+/* Text */
+.small {
+  font-size: 80%;
+}
+
+.big {
+  font-size: 125%;
+}
+
+.large {
+  font-size: 150%;
+}
+
+.loud {
+  color: #e14049;
+}
+
+.quiet {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*-----  End of $Utilities  ------*/

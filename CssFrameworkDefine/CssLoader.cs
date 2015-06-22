@@ -19,7 +19,7 @@ namespace CssFrameworkDefine
         public CssLoader(string url)
         {
             if (!Regex.IsMatch(url, @"^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$"))
-                throw new UrlNotFounException("You must specify the url");
+                throw new ArgumentException("You must specify the url");
 
             scheme = url.Contains("https") ? "https:" : "http:";
             baseUrl = scheme + "//" + url.Split('/')[2] + '/';

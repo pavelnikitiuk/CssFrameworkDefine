@@ -1,0 +1,643 @@
+/*===========================
+=            $UI            =
+===========================*/
+/*==========  $Forms Buttons  ==========*/
+input[type=button],
+input[type=submit],
+input[type=reset],
+button,
+button[type],
+.btn, .btn:link,
+.button, .button:link {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #e5e5e5));
+  background-image: -webkit-linear-gradient(#fafafa, #e5e5e5);
+  background-image: -moz-linear-gradient(#fafafa, #e5e5e5);
+  background-image: -o-linear-gradient(#fafafa, #e5e5e5);
+  background-image: linear-gradient(#fafafa, #e5e5e5);
+  border: 1px solid #dadada;
+  border-bottom-color: darkgrey;
+  color: #888888;
+  display: inline-block;
+  font-family: Verdana, Tahoma, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  line-height: 100%;
+  padding: 5px 9px;
+  /* For links */
+  text-decoration: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 0 whitesmoke;
+  -moz-box-shadow: 0 1px 0 0 whitesmoke;
+  box-shadow: 0 1px 0 0 whitesmoke;
+  /* IE7 padding bugfix */
+  overflow: visible;
+  width: auto;
+}
+input[type=button]:focus,
+input[type=submit]:focus,
+input[type=reset]:focus,
+button:focus,
+button[type]:focus,
+.btn:focus, .btn:link:focus,
+.button:focus, .button:link:focus {
+  outline-width: thin;
+  outline-style: auto;
+}
+input[type=button]:focus, input[type=button]:hover,
+input[type=submit]:focus,
+input[type=submit]:hover,
+input[type=reset]:focus,
+input[type=reset]:hover,
+button:focus,
+button:hover,
+button[type]:focus,
+button[type]:hover,
+.btn:focus,
+.btn:hover, .btn:link:focus, .btn:link:hover,
+.button:focus,
+.button:hover, .button:link:focus, .button:link:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #dadada));
+  background-image: -webkit-linear-gradient(#fafafa, #dadada);
+  background-image: -moz-linear-gradient(#fafafa, #dadada);
+  background-image: -o-linear-gradient(#fafafa, #dadada);
+  background-image: linear-gradient(#fafafa, #dadada);
+  color: #555555;
+  outline-color: #4e9a06;
+}
+input[type=button]:active,
+input[type=submit]:active,
+input[type=reset]:active,
+button:active,
+button[type]:active,
+.btn:active, .btn:link:active,
+.button:active, .button:link:active {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e5e5e5), color-stop(100%, #fafafa));
+  background-image: -webkit-linear-gradient(#e5e5e5, #fafafa);
+  background-image: -moz-linear-gradient(#e5e5e5, #fafafa);
+  background-image: -o-linear-gradient(#e5e5e5, #fafafa);
+  background-image: linear-gradient(#e5e5e5, #fafafa);
+  border-color: #888888 darkgrey #dadada;
+  color: #888888;
+  -webkit-box-shadow: inset 0 1px 6px darkgrey, 0 1px 0 whitesmoke;
+  -moz-box-shadow: inset 0 1px 6px darkgrey, 0 1px 0 whitesmoke;
+  box-shadow: inset 0 1px 6px darkgrey, 0 1px 0 whitesmoke;
+}
+input[type=button][disabled], input[type=button][disabled]:hover, input[type=button][disabled]:active, input[type=button].disabled,
+input[type=submit][disabled],
+input[type=submit][disabled]:hover,
+input[type=submit][disabled]:active,
+input[type=submit].disabled,
+input[type=reset][disabled],
+input[type=reset][disabled]:hover,
+input[type=reset][disabled]:active,
+input[type=reset].disabled,
+button[disabled],
+button[disabled]:hover,
+button[disabled]:active,
+button.disabled,
+button[type][disabled],
+button[type][disabled]:hover,
+button[type][disabled]:active,
+button[type].disabled,
+.btn[disabled],
+.btn[disabled]:hover,
+.btn[disabled]:active,
+.btn.disabled, .btn:link[disabled], .btn:link[disabled]:hover, .btn:link[disabled]:active, .btn:link.disabled,
+.button[disabled],
+.button[disabled]:hover,
+.button[disabled]:active,
+.button.disabled, .button:link[disabled], .button:link[disabled]:hover, .button:link[disabled]:active, .button:link.disabled {
+  background: #e5e5e5;
+  border: 1px solid #dadada;
+  color: #888888;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn:visited, .button:visited {
+  color: #555555;
+}
+
+/* Fixes a NASTY bug in Firefox where input's line-height does not work */
+@-moz-document url-prefix() {
+  input[type=button],
+  input[type=submit],
+  input[type=reset] {
+    height: 1.9em;
+  }
+}
+
+/* Removes box-model related styles from images inside buttons */
+button img,
+.btn img,
+.button img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*==========  $Buttons helpers  ==========*/
+input[type="button"].btn-info,
+input[type="submit"].btn-info,
+input[type="reset"].btn-info,
+button.btn-info,
+button[type].btn-info,
+.btn.btn-info,
+.button.btn-info {
+  color: steelblue;
+}
+input[type="button"].btn-info:focus, input[type="button"].btn-info:hover,
+input[type="submit"].btn-info:focus,
+input[type="submit"].btn-info:hover,
+input[type="reset"].btn-info:focus,
+input[type="reset"].btn-info:hover,
+button.btn-info:focus,
+button.btn-info:hover,
+button[type].btn-info:focus,
+button[type].btn-info:hover,
+.btn.btn-info:focus,
+.btn.btn-info:hover,
+.button.btn-info:focus,
+.button.btn-info:hover {
+  color: #38678f;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f7ff), color-stop(100%, #c0d9ff));
+  background-image: -webkit-linear-gradient(#f3f7ff, #c0d9ff);
+  background-image: -moz-linear-gradient(#f3f7ff, #c0d9ff);
+  background-image: -o-linear-gradient(#f3f7ff, #c0d9ff);
+  background-image: linear-gradient(#f3f7ff, #c0d9ff);
+  border-color: #82d2df;
+}
+input[type="button"].btn-info:active,
+input[type="submit"].btn-info:active,
+input[type="reset"].btn-info:active,
+button.btn-info:active,
+button[type].btn-info:active,
+.btn.btn-info:active,
+.button.btn-info:active {
+  -webkit-box-shadow: inset 0 1px 6px #0d6dff, 0 1px 0 whitesmoke;
+  -moz-box-shadow: inset 0 1px 6px #0d6dff, 0 1px 0 whitesmoke;
+  box-shadow: inset 0 1px 6px #0d6dff, 0 1px 0 whitesmoke;
+}
+input[type="button"].btn-success,
+input[type="submit"].btn-success,
+input[type="reset"].btn-success,
+button.btn-success,
+button[type].btn-success,
+.btn.btn-success,
+.button.btn-success {
+  color: #7b9712;
+}
+input[type="button"].btn-success:focus, input[type="button"].btn-success:hover,
+input[type="submit"].btn-success:focus,
+input[type="submit"].btn-success:hover,
+input[type="reset"].btn-success:focus,
+input[type="reset"].btn-success:hover,
+button.btn-success:focus,
+button.btn-success:hover,
+button[type].btn-success:focus,
+button[type].btn-success:hover,
+.btn.btn-success:focus,
+.btn.btn-success:hover,
+.button.btn-success:focus,
+.button.btn-success:hover {
+  color: #56690d;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f7d9), color-stop(100%, #e7edaf));
+  background-image: -webkit-linear-gradient(#f3f7d9, #e7edaf);
+  background-image: -moz-linear-gradient(#f3f7d9, #e7edaf);
+  background-image: -o-linear-gradient(#f3f7d9, #e7edaf);
+  background-image: linear-gradient(#f3f7d9, #e7edaf);
+  border-color: #becf59;
+}
+input[type="button"].btn-success:active,
+input[type="submit"].btn-success:active,
+input[type="reset"].btn-success:active,
+button.btn-success:active,
+button[type].btn-success:active,
+.btn.btn-success:active,
+.button.btn-success:active {
+  -webkit-box-shadow: inset 0 1px 6px #899621, 0 1px 0 whitesmoke;
+  -moz-box-shadow: inset 0 1px 6px #899621, 0 1px 0 whitesmoke;
+  box-shadow: inset 0 1px 6px #899621, 0 1px 0 whitesmoke;
+}
+input[type="button"].btn-error,
+input[type="submit"].btn-error,
+input[type="reset"].btn-error,
+button.btn-error,
+button[type].btn-error,
+.btn.btn-error,
+.button.btn-error {
+  color: #e14049;
+}
+input[type="button"].btn-error:focus, input[type="button"].btn-error:hover,
+input[type="submit"].btn-error:focus,
+input[type="submit"].btn-error:hover,
+input[type="reset"].btn-error:focus,
+input[type="reset"].btn-error:hover,
+button.btn-error:focus,
+button.btn-error:hover,
+button[type].btn-error:focus,
+button[type].btn-error:hover,
+.btn.btn-error:focus,
+.btn.btn-error:hover,
+.button.btn-error:focus,
+.button.btn-error:hover {
+  color: #ce202a;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffd7e4));
+  background-image: -webkit-linear-gradient(#ffffff, #ffd7e4);
+  background-image: -moz-linear-gradient(#ffffff, #ffd7e4);
+  background-image: -o-linear-gradient(#ffffff, #ffd7e4);
+  background-image: linear-gradient(#ffffff, #ffd7e4);
+  border-color: pink;
+}
+input[type="button"].btn-error:active,
+input[type="submit"].btn-error:active,
+input[type="reset"].btn-error:active,
+button.btn-error:active,
+button[type].btn-error:active,
+.btn.btn-error:active,
+.button.btn-error:active {
+  -webkit-box-shadow: inset 0 1px 6px #bd003f, 0 1px 0 whitesmoke;
+  -moz-box-shadow: inset 0 1px 6px #bd003f, 0 1px 0 whitesmoke;
+  box-shadow: inset 0 1px 6px #bd003f, 0 1px 0 whitesmoke;
+}
+input[type="button"].btn-notice,
+input[type="submit"].btn-notice,
+input[type="reset"].btn-notice,
+button.btn-notice,
+button[type].btn-notice,
+.btn.btn-notice,
+.button.btn-notice {
+  color: goldenrod;
+}
+input[type="button"].btn-notice:focus, input[type="button"].btn-notice:hover,
+input[type="submit"].btn-notice:focus,
+input[type="submit"].btn-notice:hover,
+input[type="reset"].btn-notice:focus,
+input[type="reset"].btn-notice:hover,
+button.btn-notice:focus,
+button.btn-notice:hover,
+button[type].btn-notice:focus,
+button[type].btn-notice:hover,
+.btn.btn-notice:focus,
+.btn.btn-notice:hover,
+.button.btn-notice:focus,
+.button.btn-notice:hover {
+  color: #ae8319;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fffde7), color-stop(100%, #fff7b4));
+  background-image: -webkit-linear-gradient(#fffde7, #fff7b4);
+  background-image: -moz-linear-gradient(#fffde7, #fff7b4);
+  background-image: -o-linear-gradient(#fffde7, #fff7b4);
+  background-image: linear-gradient(#fffde7, #fff7b4);
+  border-color: gold;
+}
+input[type="button"].btn-notice:active,
+input[type="submit"].btn-notice:active,
+input[type="reset"].btn-notice:active,
+button.btn-notice:active,
+button[type].btn-notice:active,
+.btn.btn-notice:active,
+.button.btn-notice:active {
+  -webkit-box-shadow: inset 0 1px 6px #9a8b00, 0 1px 0 whitesmoke;
+  -moz-box-shadow: inset 0 1px 6px #9a8b00, 0 1px 0 whitesmoke;
+  box-shadow: inset 0 1px 6px #9a8b00, 0 1px 0 whitesmoke;
+}
+input[type="button"].btn-small,
+input[type="submit"].btn-small,
+input[type="reset"].btn-small,
+button.btn-small,
+button[type].btn-small,
+.btn.btn-small,
+.button.btn-small {
+  line-height: 0.75;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+input[type="button"].btn-medium,
+input[type="submit"].btn-medium,
+input[type="reset"].btn-medium,
+button.btn-medium,
+button[type].btn-medium,
+.btn.btn-medium,
+.button.btn-medium {
+  line-height: 1.5;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+input[type="button"].btn-large,
+input[type="submit"].btn-large,
+input[type="reset"].btn-large,
+button.btn-large,
+button[type].btn-large,
+.btn.btn-large,
+.button.btn-large {
+  line-height: 2;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+input[type="button"].btn-huge,
+input[type="submit"].btn-huge,
+input[type="reset"].btn-huge,
+button.btn-huge,
+button[type].btn-huge,
+.btn.btn-huge,
+.button.btn-huge {
+  line-height: 4;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+input[type="button"].btn-alpha,
+input[type="submit"].btn-alpha,
+input[type="reset"].btn-alpha,
+button.btn-alpha,
+button[type].btn-alpha,
+.btn.btn-alpha,
+.button.btn-alpha {
+  font-size: 0.75em;
+}
+input[type="button"].btn-beta,
+input[type="submit"].btn-beta,
+input[type="reset"].btn-beta,
+button.btn-beta,
+button[type].btn-beta,
+.btn.btn-beta,
+.button.btn-beta {
+  font-size: 1.28em;
+}
+input[type="button"].btn-gamma,
+input[type="submit"].btn-gamma,
+input[type="reset"].btn-gamma,
+button.btn-gamma,
+button[type].btn-gamma,
+.btn.btn-gamma,
+.button.btn-gamma {
+  font-size: 1.50em;
+}
+input[type="button"].btn-unstyled, input[type="button"].btn-unstyled:hover, input[type="button"].btn-unstyled:focus, input[type="button"].btn-unstyled:active,
+input[type="submit"].btn-unstyled,
+input[type="submit"].btn-unstyled:hover,
+input[type="submit"].btn-unstyled:focus,
+input[type="submit"].btn-unstyled:active,
+input[type="reset"].btn-unstyled,
+input[type="reset"].btn-unstyled:hover,
+input[type="reset"].btn-unstyled:focus,
+input[type="reset"].btn-unstyled:active,
+button.btn-unstyled,
+button.btn-unstyled:hover,
+button.btn-unstyled:focus,
+button.btn-unstyled:active,
+button[type].btn-unstyled,
+button[type].btn-unstyled:hover,
+button[type].btn-unstyled:focus,
+button[type].btn-unstyled:active,
+.btn.btn-unstyled,
+.btn.btn-unstyled:hover,
+.btn.btn-unstyled:focus,
+.btn.btn-unstyled:active,
+.button.btn-unstyled,
+.button.btn-unstyled:hover,
+.button.btn-unstyled:focus,
+.button.btn-unstyled:active {
+  background: transparent;
+  border-color: transparent;
+  font-weight: normal;
+  text-decoration: underline;
+  -webkit-box-shadow: 0 0 0 transparent;
+  -moz-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+}
+input[type="button"].btn-full,
+input[type="submit"].btn-full,
+input[type="reset"].btn-full,
+button.btn-full,
+button[type].btn-full,
+.btn.btn-full,
+.button.btn-full {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+}
+input[type="button"].btn-natural,
+input[type="submit"].btn-natural,
+input[type="reset"].btn-natural,
+button.btn-natural,
+button[type].btn-natural,
+.btn.btn-natural,
+.button.btn-natural {
+  font-size: inherit;
+  line-height: inherit;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+/*==========  Buttons group  ==========*/
+.btn-group {
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn-group input[type="button"], .btn-group input[type="submit"], .btn-group input[type="reset"], .btn-group button, .btn-group .btn, .btn-group .btn:link, .btn-group .button, .btn-group .button:link {
+  float: left;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.btn-group input[type="button"]:first-child, .btn-group input[type="submit"]:first-child, .btn-group input[type="reset"]:first-child, .btn-group button:first-child, .btn-group .btn:first-child, .btn-group .btn:link:first-child, .btn-group .button:first-child, .btn-group .button:link:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -ms-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.btn-group input[type="button"]:last-child, .btn-group input[type="submit"]:last-child, .btn-group input[type="reset"]:last-child, .btn-group button:last-child, .btn-group .btn:last-child, .btn-group .btn:link:last-child, .btn-group .button:last-child, .btn-group .button:link:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/*==========  Close button  ==========*/
+.btn-close, .btn-close:link, .btn-close:visited, .btn-close:hover, .btn-close:active, .btn-close:focus {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  top: -3px;
+}
+
+/*==========  $UI Alerts/Messages  ==========*/
+.alert,
+.error,
+.guidelines,
+.info, .ok,
+.notice, .warning,
+.status, .success {
+  background-color: whitesmoke;
+  background-position: 4px 1em;
+  background-repeat: no-repeat;
+  border: 1px solid #e5e5e5;
+  color: #888888;
+  margin-bottom: 15px;
+  padding: 9px 9px 9px 24px;
+}
+.alert a,
+.error a,
+.guidelines a,
+.info a, .ok a,
+.notice a, .warning a,
+.status a, .success a {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.error {
+  background-color: lavenderblush;
+  background-image: url(../images/icons/cross.png);
+  border-color: pink;
+  color: #e14049;
+}
+.error a {
+  color: #e14049;
+}
+
+.info, .status {
+  background-color: #d9e8ff;
+  background-image: url(../images/icons/information.png);
+  border-color: #82d2df;
+  color: steelblue;
+}
+.info a, .status a {
+  color: steelblue;
+}
+
+.notice, .warning {
+  background-color: lemonchiffon;
+  background-image: url(../images/icons/error.png);
+  border-color: gold;
+  color: goldenrod;
+}
+.notice a, .warning a {
+  color: goldenrod;
+}
+
+.success, .ok {
+  background-color: #edf2c4;
+  background-image: url(../images/icons/tick.png);
+  border-color: #becf59;
+  color: #7b9712;
+}
+.success a, .ok a {
+  color: #7b9712;
+}
+
+.guidelines {
+  background-color: ivory;
+  border-color: #fff6cc;
+  color: #555555;
+  line-height: 130%;
+  margin-top: 6px;
+  padding: 9px 6px;
+}
+.guidelines a {
+  color: #555555;
+}
+
+/*==========  $UI Progressbars  ==========*/
+.progressbar,
+.progressbar-error,
+.progressbar-info,
+.progressbar-notice,
+.progressbar-success {
+  background: #fafafa;
+  border: 1px solid #dadada;
+  height: 21px;
+  margin: 6px 0;
+  overflow: hidden;
+  position: relative;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.progressbar .progress-value,
+.progressbar-error .progress-value,
+.progressbar-info .progress-value,
+.progressbar-notice .progress-value,
+.progressbar-success .progress-value {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f5), color-stop(100%, #dadada));
+  background-image: -webkit-linear-gradient(#f5f5f5, #dadada);
+  background-image: -moz-linear-gradient(#f5f5f5, #dadada);
+  background-image: -o-linear-gradient(#f5f5f5, #dadada);
+  background-image: linear-gradient(#f5f5f5, #dadada);
+  float: left;
+  height: 20px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+}
+.progressbar .progress-text,
+.progressbar-error .progress-text,
+.progressbar-info .progress-text,
+.progressbar-notice .progress-text,
+.progressbar-success .progress-text {
+  color: #555555;
+  font-size: 14px;
+  font-weight: bold;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.progressbar-error .progress-value {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9dadc), color-stop(100%, #e14049));
+  background-image: -webkit-linear-gradient(#f9dadc, #e14049);
+  background-image: -moz-linear-gradient(#f9dadc, #e14049);
+  background-image: -o-linear-gradient(#f9dadc, #e14049);
+  background-image: linear-gradient(#f9dadc, #e14049);
+}
+
+.progressbar-info .progress-value {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e5f2ff), color-stop(100%, #3399ff));
+  background-image: -webkit-linear-gradient(#e5f2ff, #3399ff);
+  background-image: -moz-linear-gradient(#e5f2ff, #3399ff);
+  background-image: -o-linear-gradient(#e5f2ff, #3399ff);
+  background-image: linear-gradient(#e5f2ff, #3399ff);
+}
+
+.progressbar-notice .progress-value {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe766), color-stop(100%, #ffd700));
+  background-image: -webkit-linear-gradient(#ffe766, #ffd700);
+  background-image: -moz-linear-gradient(#ffe766, #ffd700);
+  background-image: -o-linear-gradient(#ffe766, #ffd700);
+  background-image: linear-gradient(#ffe766, #ffd700);
+}
+
+.progressbar-success .progress-value {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dde6a8), color-stop(100%, #becf59));
+  background-image: -webkit-linear-gradient(#dde6a8, #becf59);
+  background-image: -moz-linear-gradient(#dde6a8, #becf59);
+  background-image: -o-linear-gradient(#dde6a8, #becf59);
+  background-image: linear-gradient(#dde6a8, #becf59);
+}
+
+/*-----  End of $UI  ------*/

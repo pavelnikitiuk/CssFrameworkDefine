@@ -8,3 +8,5 @@ D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\bin\Debug\HtmlAgilityPac
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\obj\Debug\CssFrameworkDefine.csprojResolveAssemblyReference.cache
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\obj\Debug\CssFrameworkDefine.dll
 D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\obj\Debug\CssFrameworkDefine.pdb
+D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\obj\Debug\CssFrameworkDefine.Properties.Resources.resources
+D:\projects\Other\CssFrameworkDefine\CssFrameworkDefine\obj\Debug\CssFrameworkDefine.csproj.GenerateResource.Cache
