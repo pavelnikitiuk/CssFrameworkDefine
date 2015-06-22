@@ -120,7 +120,6 @@ namespace CssFrameworkDefine
                 results.Add(name, 0);
             }
 
-            //Add all original framework
 
 
             IList<ExCSS.StyleRule> stylesheet;
@@ -147,7 +146,7 @@ namespace CssFrameworkDefine
                         results[name]++;
                     }
             }
-            MostSuitableFramework = "Bootstrap";// results.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+            MostSuitableFramework = results.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
             return results;
         }
 
