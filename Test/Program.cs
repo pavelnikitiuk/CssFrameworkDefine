@@ -32,11 +32,13 @@ namespace Test
 
             Stopwatch timer = new Stopwatch();
             timer.Start();
-
-
-
             var stream = File.Create(Properties.Resources.Result);
             stream.Dispose();
+
+
+
+
+
             foreach (var file in Directory.EnumerateFiles(testsPath, pattern, SearchOption.AllDirectories))
             {
                 Console.WriteLine("{0}", file);
@@ -45,7 +47,7 @@ namespace Test
                     var res = d.Define(File.ReadAllText(file));
                     var resultframework = res[d.MostSuitableFramework];
                     File.AppendAllText(Properties.Resources.Result,
-                        String.Format("File: {0} use {1} matches {2} \n", 
+                        String.Format("File: {0} use {1} matches {2} \n",
                         file, resultframework == 0 ? Properties.Resources.UnknownFramework : d.MostSuitableFramework, resultframework));
                 }
                 catch { File.AppendAllText(Properties.Resources.Result, String.Format("{0} - it does not css\n", file)); }
@@ -57,10 +59,15 @@ namespace Test
 
         static void Main(string[] args)
         {
+            string path, frameworkPath;
+
             Console.WriteLine("Write path to tests floder");
-            var str = "D:\\Projects\\Tests\\CssDefiner\\Tests\\";
-            var frameworks = "D:\\CssFrameworks";
-            Start(str, frameworks);
+            path = Console.ReadLine();
+            Console.WriteLine("Write path to framework floder");
+            frameworkPath = Console.ReadLine();
+            
+
+            Start(path, frameworkPath);
 
         }
     }
