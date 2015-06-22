@@ -41,11 +41,11 @@ namespace Test
                 Console.WriteLine("{0}", file);
                 try
                 {
-                    var res = d.Define(File.ReadAllText(file),out csstimer);
+                    var res = d.Define(File.ReadAllText(file), out csstimer);
                     var resultframework = res[d.MostSuitableFramework];
                     File.AppendAllText(Properties.Resources.Result,
                         String.Format("File: {0} use {1} matches {2} time {3}\n",
-                        file, resultframework == 0 ? Properties.Resources.UnknownFramework : d.MostSuitableFramework, resultframework,csstimer.ElapsedMilliseconds));
+                        file, resultframework == 0 ? Properties.Resources.UnknownFramework : d.MostSuitableFramework, resultframework, csstimer.ElapsedMilliseconds));
                 }
                 catch { File.AppendAllText(Properties.Resources.Result, String.Format("{0} - it does not css\n", file)); }
             }

@@ -14,13 +14,14 @@ namespace CssFrameworkDefine
     public class Definer
     {
         /// <summary>
-        /// Dictonary of css properties
+        /// Dictionary of css properties
         /// </summary>
         private Dictionary<string, int> CssProperties;
         /// <summary>
         /// list of original css frameworks
         /// </summary>
-        private List<OriginalCssFramework> originalFrameworks;
+        private OriginalCssFramework originalFrameworks;
+        private List<string> frameworksNameCollection { get; set; }
         /// <summary>
         /// Css Parser
         /// </summary>
@@ -32,8 +33,9 @@ namespace CssFrameworkDefine
 
         public Definer()
         {
+            frameworksNameCollection = new List<string>();
             CssProperties = new Dictionary<string, int>();
-            //Add all properties in dictonary
+            //Add all properties in Dictionary
             foreach (var property in ConstantsProperties.CssProperties)
             {
                 CssProperties.Add(property.Name, property.Id);
@@ -41,7 +43,7 @@ namespace CssFrameworkDefine
 
             parser = new Parser();
 
-            originalFrameworks = new List<OriginalCssFramework>();
+            originalFrameworks = new OriginalCssFramework();
         }
         /// <summary>
         /// Add original framework
@@ -50,12 +52,20 @@ namespace CssFrameworkDefine
         /// <param name="paths">Array of paths in framework </param>
         public void AddFramework(string name, params string[] paths)
         {
-            OriginalCssFramework toAdd = new OriginalCssFramework { Name = name, Styles = new List<Dictionary<string, bool[]>>() };
+            frameworksNameCollection.Add(name);
             foreach (var path in paths)
             {
-                toAdd.Styles.Add(Load(path));
+                var dictionary = Load(path);
+                foreach (var style in dictionary)
+                {
+                    var toAdd = new Style { Properties = style.Value, Name = style.Key };
+                    if (originalFrameworks.Styles.ContainsKey(toAdd))
+                        originalFrameworks.Styles[toAdd].Add(name);
+                    else
+                        originalFrameworks.Styles.Add(toAdd, new List<string> { name });
+                }
+
             }
-            originalFrameworks.Add(toAdd);
         }
         /// <summary>
         /// Add original framework
@@ -72,26 +82,13 @@ namespace CssFrameworkDefine
         }
 
 
-        private List<string> DetectFramework(string selector, bool[] property)
+        private List<string> DetectFramework(Style style)
         {
             List<string> frameworkNames = new List<string>();
-            foreach (var framework in originalFrameworks)
-            {
-                foreach (var style in framework.Styles)
-                {
-                    if (style.ContainsKey(selector))
-                    {
-                        if (style[selector].SequenceEqual(property))
-                        {
-                            frameworkNames.Add(framework.Name);
-                            break;
-                        }
-                    }
 
-                }
-            }
-
-            return frameworkNames;
+            if (originalFrameworks.Styles.ContainsKey(style))
+                return originalFrameworks.Styles[style];
+            return null;
         }
 
         /// <summary>
@@ -117,11 +114,14 @@ namespace CssFrameworkDefine
         {
             Dictionary<string, int> results = new Dictionary<string, int>();
 
-            //Add all original framework
-            foreach (var framework in originalFrameworks)
+
+            foreach (var name in frameworksNameCollection)
             {
-                results.Add(framework.Name, 0);
+                results.Add(name, 0);
             }
+
+            //Add all original framework
+
 
             IList<ExCSS.StyleRule> stylesheet;
             try
@@ -140,18 +140,19 @@ namespace CssFrameworkDefine
             foreach (var rule in styleRules)
             {
 
-                var frameworksName = DetectFramework(rule.Key, rule.Value);
-                foreach (var name in frameworksName)
-                {
-                    results[name]++;
-                }
+                var frameworksName = DetectFramework(new Style { Name = rule.Key, Properties = rule.Value });
+                if (frameworksName != null)
+                    foreach (var name in frameworksName)
+                    {
+                        results[name]++;
+                    }
             }
-            MostSuitableFramework = results.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+            MostSuitableFramework = "Bootstrap";// results.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
             return results;
         }
 
-        
-        private Dictionary<string, bool[]> Load(string path)
+
+        private Dictionary<string, BitMask> Load(string path)
         {
             if (path == null)
                 throw new ArgumentNullException("Path can not be null");
@@ -161,30 +162,30 @@ namespace CssFrameworkDefine
             return Load(parser.Parse(File.ReadAllText(path)).StyleRules);
         }
 
-        private Dictionary<string, bool[]> Load(IList<ExCSS.StyleRule> rules)
+        private Dictionary<string, BitMask> Load(IList<ExCSS.StyleRule> rules)
         {
-            var dictonary = new Dictionary<string, bool[]>();
+            Style toAdd = new Style();
+
+            var Dictionary = new Dictionary<string, BitMask>();
             foreach (var rule in rules)
             {
-                var mask = new bool[375];
+                var mask = new BitMask();
                 foreach (var propery in rule.Declarations.Properties)
                 {
                     if (CssProperties.ContainsKey(propery.Name))
                         mask[CssProperties[propery.Name]] = true;
                 }
-
-
                 var key = rule.Selector.ToString();
-                if (dictonary.ContainsKey(key))
-                    for (int i = 0; i < mask.Length; i++)
+                if (Dictionary.ContainsKey(key))
+                    for (int i = 0; i < CssProperties.Values.Count; i++)
                     {
-                        dictonary[key][i] = mask[i] || dictonary[key][i];
+                        Dictionary[key][i] = mask[i] || Dictionary[key][i];
                     }
                 else
-                    dictonary.Add(key, mask);
+                    Dictionary.Add(key, mask);
             }
-            //return dictonary selector- properties mask
-            return dictonary;
+            //return Dictionary selector- properties mask
+            return Dictionary;
         }
     }
 }

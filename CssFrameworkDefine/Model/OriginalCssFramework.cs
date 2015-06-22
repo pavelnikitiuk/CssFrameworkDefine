@@ -8,13 +8,41 @@ namespace CssFrameworkDefine.Model
 {
     class OriginalCssFramework
     {
-        public string Name { get; set; }
-
-        public List<Dictionary<string, bool[]>> Styles { get; set; }
+        public Dictionary<Style, List<string>> Styles { get; set; }
+        public OriginalCssFramework()
+        {
+            Styles = new Dictionary<Style, List<string>>();
+        }
 
     }
+    class Style
+    {
+        public string Name { get; set; }
+        public BitMask Properties { get; set; }
+        public override bool Equals(object obj)
+        {
+            return (Equals(obj as Style));
+        }
+        public bool Equals(Style other)
+        {
+            if (other == null)
+                return false;
+            if (String.Compare(Name, other.Name) == 0 && Properties.Equals(other.Properties))
+                return true;
+            return false;
+        }
+        public override int GetHashCode()
+        {
 
+            return Properties.GetHashCode() ^ Name.GetHashCode();
+        }
+
+
+
+
+    }
    
+
 }
 
 
