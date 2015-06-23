@@ -17,7 +17,6 @@ namespace CssFrameworkDefine
         /// Dictionary of css properties
         /// </summary>
         private Dictionary<string, int> CssProperties;
-        private Dictionary<string, int> result;
         /// <summary>
         /// list of original css frameworks
         /// </summary>
@@ -34,18 +33,19 @@ namespace CssFrameworkDefine
 
         public Definer()
         {
-            result = new Dictionary<string, int>();
             frameworksNameCollection = new List<string>();
+
             CssProperties = new Dictionary<string, int>();
+
+            originalFrameworks = new Dictionary<Style, List<string>>();
+
+            parser = new Parser();
+
             //Add all properties in Dictionary
             foreach (var property in ConstantsProperties.CssProperties)
             {
                 CssProperties.Add(property.Name, property.Id);
             }
-
-            parser = new Parser();
-
-            originalFrameworks = new Dictionary<Style, List<string>>();
         }
         /// <summary>
         /// Add original framework
@@ -54,7 +54,6 @@ namespace CssFrameworkDefine
         /// <param name="paths">Array of paths in framework </param>
         public void AddFramework(string name, params string[] paths)
         {
-            result.Add(name, 0);
             frameworksNameCollection.Add(name);
             foreach (var path in paths)
             {
@@ -84,16 +83,6 @@ namespace CssFrameworkDefine
             time.Stop();
         }
 
-
-        private List<string> DetectFramework(Style style)
-        {
-            List<string> frameworkNames = new List<string>();
-
-            if (originalFrameworks.ContainsKey(style))
-                return originalFrameworks[style];
-            return null;
-        }
-
         /// <summary>
         /// Start define framework
         /// </summary>
@@ -115,11 +104,14 @@ namespace CssFrameworkDefine
         /// <returns>Dictionary key - the name of the framework, the value - the number of matches found</returns>
         public Dictionary<string, int> Define(string css)
         {
+            Dictionary<string, int> result = new Dictionary<string, int>();
+            foreach(var name in frameworksNameCollection)
+            {
+                result.Add(name, 0);
+            }
 
-            foreach(var key in result.Keys.ToList())
-                result[key] = 0;
-            
             IList<ExCSS.StyleRule> stylesheet;
+
             try
             {
                 stylesheet = parser.Parse(css).StyleRules;
@@ -128,8 +120,6 @@ namespace CssFrameworkDefine
             {
                 throw;
             }
-            if (stylesheet.Any(x => x.Selector == null))
-                throw new CssDefineException("CssDefineException");
 
             var styleRules = Load(stylesheet);
 
@@ -141,13 +131,10 @@ namespace CssFrameworkDefine
                 style.Properties = rule.Value;
                 if (!originalFrameworks.ContainsKey(style))
                     continue;
-                var frameworksName = originalFrameworks[style];
-                if (frameworksName != null)
-                    foreach (var name in frameworksName)
-                    {
-                        result[name]++;
-                    }
+                foreach (var name in  originalFrameworks[style])
+                    result[name]++;
             }
+
             MostSuitableFramework = result.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
             return result;
         }
@@ -165,6 +152,8 @@ namespace CssFrameworkDefine
 
         private Dictionary<string, BitMask> Load(IList<ExCSS.StyleRule> rules)
         {
+            if (rules.Any(x => x.Selector == null))
+                throw new CssDefineException("CssDefineException");
             Style toAdd = new Style();
 
             var Dictionary = new Dictionary<string, BitMask>();

@@ -33,7 +33,6 @@ namespace Test
             Stopwatch timer = new Stopwatch();
             timer.Start();
 
-            Stopwatch csstimer;
             var stream = File.Create(Properties.Resources.Result);
             stream.Dispose();
             foreach (var file in Directory.EnumerateFiles(testsPath, pattern, SearchOption.AllDirectories))
@@ -41,11 +40,11 @@ namespace Test
                 Console.WriteLine("{0}", file);
                 try
                 {
-                    var res = d.Define(File.ReadAllText(file), out csstimer);
+                    var res = d.Define(File.ReadAllText(file));
                     var resultframework = res[d.MostSuitableFramework];
                     File.AppendAllText(Properties.Resources.Result,
-                        String.Format("File: {0} use {1} matches {2} time {3}\n",
-                        file, resultframework == 0 ? Properties.Resources.UnknownFramework : d.MostSuitableFramework, resultframework, csstimer.ElapsedMilliseconds));
+                        String.Format("File: {0} use {1} matches {2}\n",
+                        file, resultframework == 0 ? Properties.Resources.UnknownFramework : d.MostSuitableFramework, resultframework));
                 }
                 catch { File.AppendAllText(Properties.Resources.Result, String.Format("{0} - it does not css\n", file)); }
             }
@@ -56,17 +55,11 @@ namespace Test
 
         static void Main(string[] args)
         {
-            //string path, frameworkPath;
-
-            //Console.WriteLine("Write path to tests floder");
-            //path = Console.ReadLine();
-            //Console.WriteLine("Write path to framework floder");
-            //frameworkPath = Console.ReadLine();
-            var path = "D:\\Projects\\Tests\\CssDefiner\\AllTests\\";
-            var frameworkPath = "D:\\CssFrameworks";
-
-            Start(path, frameworkPath);
-
+            string path, frameworkPath;
+            Console.WriteLine("Write path to tests floder");
+            path = Console.ReadLine();
+            Console.WriteLine("Write path to framework floder");
+            frameworkPath = Console.ReadLine();
         }
     }
 }

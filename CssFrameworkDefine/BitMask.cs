@@ -25,8 +25,8 @@ namespace CssFrameworkDefine
             {
                 if (index < 0 || index > 374)
                     throw new ArgumentException();
-
                 byte num = (byte)(index / 64);
+
                 byte offset = (byte)(index - num * 64);
 
                 mask[num] ^= (ulong)1 << offset;
@@ -37,7 +37,6 @@ namespace CssFrameworkDefine
         public override bool Equals(object obj)
         {
             var other = obj as BitMask;
-
             if(other == null)
                 return false;
 
