@@ -6,15 +6,7 @@ using System.Threading.Tasks;
 using System.Collections;
 namespace CssFrameworkDefine.Model
 {
-    class OriginalCssFramework
-    {
-        public Dictionary<Style, List<string>> Styles { get; set; }
-        public OriginalCssFramework()
-        {
-            Styles = new Dictionary<Style, List<string>>();
-        }
-
-    }
+    
     class Style
     {
         public string Name { get; set; }
@@ -34,15 +26,9 @@ namespace CssFrameworkDefine.Model
         public override int GetHashCode()
         {
 
-            return Properties.GetHashCode() ^ Name.GetHashCode();
+            return  Properties.GetHashCode() ^ Name.GetHashCode();
         }
-
-
-
-
     }
-   
-
 }
 
 

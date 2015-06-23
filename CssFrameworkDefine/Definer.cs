@@ -20,7 +20,7 @@ namespace CssFrameworkDefine
         /// <summary>
         /// list of original css frameworks
         /// </summary>
-        private OriginalCssFramework originalFrameworks;
+        private Dictionary<Style, List<string>> originalFrameworks;
         private List<string> frameworksNameCollection { get; set; }
         /// <summary>
         /// Css Parser
@@ -43,7 +43,7 @@ namespace CssFrameworkDefine
 
             parser = new Parser();
 
-            originalFrameworks = new OriginalCssFramework();
+            originalFrameworks = new Dictionary<Style, List<string>>();
         }
         /// <summary>
         /// Add original framework
@@ -59,10 +59,10 @@ namespace CssFrameworkDefine
                 foreach (var style in dictionary)
                 {
                     var toAdd = new Style { Properties = style.Value, Name = style.Key };
-                    if (originalFrameworks.Styles.ContainsKey(toAdd))
-                        originalFrameworks.Styles[toAdd].Add(name);
+                    if (originalFrameworks.ContainsKey(toAdd))
+                        originalFrameworks[toAdd].Add(name);
                     else
-                        originalFrameworks.Styles.Add(toAdd, new List<string> { name });
+                        originalFrameworks.Add(toAdd, new List<string> { name });
                 }
 
             }
@@ -86,8 +86,8 @@ namespace CssFrameworkDefine
         {
             List<string> frameworkNames = new List<string>();
 
-            if (originalFrameworks.Styles.ContainsKey(style))
-                return originalFrameworks.Styles[style];
+            if (originalFrameworks.ContainsKey(style))
+                return originalFrameworks[style];
             return null;
         }
 

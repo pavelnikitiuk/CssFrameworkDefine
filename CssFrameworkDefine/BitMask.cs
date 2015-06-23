@@ -52,9 +52,9 @@ namespace CssFrameworkDefine
         public override int GetHashCode()
         {
             int code = 0;
-            for(int i = 0; i < mask.Length; i++)
+            for (int i = 0; i < mask.Length; i++)
             {
-                code ^= (int)mask[i];
+                code ^= mask[i].GetHashCode();
             }
             return code;
         }
