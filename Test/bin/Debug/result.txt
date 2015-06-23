@@ -1,9 +1,9 @@
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1000849469.txt use Unknown Framework matches 0 time 3
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1002131061.txt use Gymbly matches 6 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1002131061.txt use Gymbly matches 6 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1006095677.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1006947495.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1007610477.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1008809644.txt use Less matches 3 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1008809644.txt use Less matches 3 time 5
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1010037830.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1010178577.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1010777544.txt use Unknown Framework matches 0 time 0
@@ -18,41 +18,41 @@ File: D:\Projects\Tests\CssDefiner\AllTests\0\-1022283353.txt use Unknown Framew
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1022876143.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1025657693.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-10287205.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1029505913.txt use UIKit matches 5 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1029505913.txt use UIKit matches 5 time 7
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1030070345.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1035229502.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1036261862.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1036552532.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1036673939.txt use Cascade matches 34 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1036673939.txt use Cascade matches 34 time 7
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1040695993.txt use GroundWork matches 6 time 8
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1041244415.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1041800901.txt use Unknown Framework matches 0 time 9
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1041834678.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1042925240.txt use Bootstrap2 matches 41 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1042925240.txt use Bootstrap2 matches 41 time 12
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1046409931.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1049375874.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1050154586.txt use Bootstrap2 matches 6 time 94
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1050154586.txt use Bootstrap2 matches 6 time 88
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1050892567.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1051163413.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1051881145.txt use GroundWork matches 22 time 46
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1051881145.txt use GroundWork matches 22 time 45
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1052733808.txt use 960 matches 8 time 1
 D:\Projects\Tests\CssDefiner\AllTests\0\-1053839096.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1053928924.txt use Cascade matches 5 time 3
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1056004594.txt use NextGenGallery matches 2 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1053928924.txt use Cascade matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1056004594.txt use NextGenGallery matches 2 time 6
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1056067139.txt use Cascade matches 3 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1056528118.txt use GroundWork matches 6 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1056949071.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-105815480.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1064506636.txt use Unknown Framework matches 0 time 5
 D:\Projects\Tests\CssDefiner\AllTests\0\-1064667773.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1066087409.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1066087409.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1066321203.txt use Selva matches 3 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1066620741.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-106683681.txt use YUI matches 14 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-106683681.txt use YUI matches 14 time 2
 D:\Projects\Tests\CssDefiner\AllTests\0\-1068736785.txt - it does not css
 D:\Projects\Tests\CssDefiner\AllTests\0\-1068783586.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1070404809.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1071363887.txt use GroundWork matches 24 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1071363887.txt use GroundWork matches 24 time 11
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1075586952.txt use Cascade matches 5 time 3
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1076040596.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1078203284.txt use Unknown Framework matches 0 time 0
@@ -60,7 +60,7 @@ File: D:\Projects\Tests\CssDefiner\AllTests\0\-1081413514.txt use Unknown Framew
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1081955276.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1082690189.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1082956915.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1084083219.txt use Unknown Framework matches 0 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1084083219.txt use Unknown Framework matches 0 time 16
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1084268641.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1084354830.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1085800054.txt use Unknown Framework matches 0 time 0
@@ -69,14 +69,14 @@ File: D:\Projects\Tests\CssDefiner\AllTests\0\-1086471811.txt use Unknown Framew
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1087925733.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1088312811.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1090008106.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1090272871.txt use YUI matches 95 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1090272871.txt use YUI matches 95 time 4
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-109102144.txt use Cascade matches 5 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1094283494.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1095323469.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1096255092.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-109647818.txt use Unknown Framework matches 0 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-109647818.txt use Unknown Framework matches 0 time 4
 D:\Projects\Tests\CssDefiner\AllTests\0\-1098711004.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1099398213.txt use YUI matches 4 time 28
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1099398213.txt use YUI matches 4 time 25
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1100380347.txt use Unknown Framework matches 0 time 3
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1100995835.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-110110837.txt use Unknown Framework matches 0 time 0
@@ -84,11 +84,11 @@ File: D:\Projects\Tests\CssDefiner\AllTests\0\-1101130758.txt use GroundWork mat
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-11032811.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1103966506.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-110640293.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1108665158.txt use Foundation matches 110 time 25
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1108665158.txt use Foundation matches 110 time 22
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1109833404.txt use Unknown Framework matches 0 time 3
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1110509557.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1112032354.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-111239325.txt use 960 matches 145 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-111239325.txt use 960 matches 145 time 13
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1112871828.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1113483901.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1114430313.txt use Unknown Framework matches 0 time 0
@@ -96,44 +96,44 @@ File: D:\Projects\Tests\CssDefiner\AllTests\0\-1114467199.txt use Unknown Framew
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1116495936.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1116509480.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-111651553.txt use YUI matches 28 time 5
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-111757684.txt use 99lime matches 64 time 10
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1118389491.txt use Unknown Framework matches 0 time 3
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1120028939.txt use FEMCssFramework matches 15 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-111757684.txt use 99lime matches 64 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1118389491.txt use Unknown Framework matches 0 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1120028939.txt use FEMCssFramework matches 15 time 13
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1120899577.txt use GroundWork matches 21 time 2
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1120982277.txt use Golden matches 1 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1121247207.txt use Unknown Framework matches 0 time 23
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1122666118.txt use GroundWork matches 30 time 12
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1124655132.txt use Kube matches 6 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1121247207.txt use Unknown Framework matches 0 time 22
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1122666118.txt use GroundWork matches 30 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1124655132.txt use Kube matches 6 time 6
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1124917349.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1127347304.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1127583966.txt use Unknown Framework matches 0 time 2
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1127637686.txt use YUI matches 65 time 25
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1127583966.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1127637686.txt use YUI matches 65 time 29
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1134021043.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1135346262.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-113587549.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1137308511.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-114032953.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1141166055.txt use GroundWork matches 37 time 13
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1142036732.txt use boilerplate matches 1 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1141166055.txt use GroundWork matches 37 time 22
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1142036732.txt use boilerplate matches 1 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1144637207.txt use GroundWork matches 6 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1145960852.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1145976909.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1146897080.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1148825238.txt use Blueprint matches 4 time 5
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1149004852.txt use Cascade matches 14 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1149004852.txt use Cascade matches 14 time 4
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1149979545.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-115073706.txt use YUI matches 55 time 5
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1153177323.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-115073706.txt use YUI matches 55 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1153177323.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-115368132.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1155684290.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1155715207.txt use Cascade matches 5 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1155715207.txt use Cascade matches 5 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-115682102.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1159163379.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1160053718.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-116010325.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-116406960.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1164234225.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1165013735.txt use GroundWork matches 146 time 23
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1165013735.txt use GroundWork matches 146 time 27
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1165754946.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-116982073.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1170095851.txt use Unknown Framework matches 0 time 0
@@ -145,7 +145,7 @@ D:\Projects\Tests\CssDefiner\AllTests\0\-1180748530.txt - it does not css
 D:\Projects\Tests\CssDefiner\AllTests\0\-1180983670.txt - it does not css
 D:\Projects\Tests\CssDefiner\AllTests\0\-1181288674.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1182920140.txt use Helium matches 29 time 15
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1183328463.txt use Bootstrap2 matches 232 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1183328463.txt use Bootstrap2 matches 232 time 26
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1183958837.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1184952906.txt use boilerplate matches 1 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1189768583.txt use Unknown Framework matches 0 time 0
@@ -153,13 +153,13 @@ D:\Projects\Tests\CssDefiner\AllTests\0\-1191821565.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1192705776.txt use Cascade matches 15 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1192907087.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1195481422.txt use TheGoldilocks matches 2 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-11966357.txt use YUI matches 139 time 33
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-11966357.txt use YUI matches 139 time 35
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1197552282.txt use GroundWork matches 16 time 5
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1198418950.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1198442736.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1198606778.txt use Kube matches 6 time 5
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1199167566.txt use Unknown Framework matches 0 time 2
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-119936970.txt use GroundWork matches 24 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-119936970.txt use GroundWork matches 24 time 8
 D:\Projects\Tests\CssDefiner\AllTests\0\-1200448972.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1201839712.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1203492693.txt use Bootstrap matches 4 time 9
@@ -170,42 +170,42 @@ File: D:\Projects\Tests\CssDefiner\AllTests\0\-1206479600.txt use Unknown Framew
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-120817514.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1208727421.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-120896070.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1212110032.txt use Cascade matches 18 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1212110032.txt use Cascade matches 18 time 7
 D:\Projects\Tests\CssDefiner\AllTests\0\-1212696446.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1213373065.txt use Yamb matches 1 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1214285592.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1216158885.txt - it does not css
 D:\Projects\Tests\CssDefiner\AllTests\0\-1216200782.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1218303997.txt use TukTuk matches 1 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1218303997.txt use TukTuk matches 1 time 7
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1219168148.txt use UIKit matches 5 time 2
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1220329345.txt use Cascade matches 5 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1220329345.txt use Cascade matches 5 time 3
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1221934013.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1222297047.txt use Unknown Framework matches 0 time 48
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1222297047.txt use Unknown Framework matches 0 time 51
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1222630343.txt use Unknown Framework matches 0 time 2
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1222764496.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1223235162.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1223475360.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1227541996.txt use YUI matches 30 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-122783166.txt use Cascade matches 15 time 99
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1228361448.txt use YUI matches 25 time 48
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-122783166.txt use Cascade matches 15 time 101
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1228361448.txt use YUI matches 25 time 47
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1230621942.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1230889031.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1233391237.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1235453945.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1235475340.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1235637935.txt use Foundation matches 180 time 22
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1235475340.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1235637935.txt use Foundation matches 180 time 19
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1238140391.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1238871464.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1239218728.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1241649050.txt use YUI matches 27 time 3
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1242036229.txt use Unknown Framework matches 0 time 1
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1242104632.txt use Unknown Framework matches 0 time 1
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1242760713.txt use Unknown Framework matches 0 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1242104632.txt use Unknown Framework matches 0 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1242760713.txt use Unknown Framework matches 0 time 5
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1242784920.txt use Unknown Framework matches 0 time 3
 D:\Projects\Tests\CssDefiner\AllTests\0\-1245079011.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1245179493.txt use Cascade matches 3 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1245291104.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1245923406.txt use GroundWork matches 63 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1245923406.txt use GroundWork matches 63 time 13
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1246606280.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1247040977.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1247454046.txt - it does not css
@@ -218,20 +218,20 @@ D:\Projects\Tests\CssDefiner\AllTests\0\-125569097.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-125846438.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-125847463.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-125852712.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1258835456.txt use Unknown Framework matches 0 time 48
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1259635040.txt use YUI matches 28 time 28
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1260803328.txt use Bootstrap2 matches 8 time 44
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1258835456.txt use Unknown Framework matches 0 time 43
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1259635040.txt use YUI matches 28 time 31
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1260803328.txt use Bootstrap2 matches 8 time 48
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-126122810.txt use Cascade matches 5 time 3
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1265578427.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1268787492.txt use Helium matches 4 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1270202090.txt use Unknown Framework matches 0 time 1
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1271845435.txt use YUI matches 40 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1271845435.txt use YUI matches 40 time 7
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1272037993.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1273644310.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1274038137.txt use GroundWork matches 12 time 3
 D:\Projects\Tests\CssDefiner\AllTests\0\-127824321.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1278424378.txt use GroundWork matches 49 time 3
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1278700082.txt use YUI matches 14 time 47
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1278424378.txt use GroundWork matches 49 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1278700082.txt use YUI matches 14 time 36
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1280335453.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1280520161.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1280637331.txt use YUI matches 21 time 2
@@ -242,41 +242,1357 @@ File: D:\Projects\Tests\CssDefiner\AllTests\0\-1283159802.txt use Unknown Framew
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1285149181.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1287005889.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1288278879.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1288727159.txt use YUI matches 93 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1288727159.txt use YUI matches 93 time 30
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1290370875.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1292314555.txt use Cascade matches 20 time 23
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1292314555.txt use Cascade matches 20 time 35
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1292406809.txt use Unknown Framework matches 0 time 2
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1292513110.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1293578197.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-129373746.txt use Cascade matches 10 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1294748842.txt use Kube matches 2 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1296550653.txt use Helium matches 8 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1296550653.txt use Helium matches 8 time 6
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1296910761.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1297102353.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1297886029.txt use Unknown Framework matches 0 time 1
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1298583815.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1299289784.txt use Cascade matches 15 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1299289784.txt use Cascade matches 15 time 18
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1299706701.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1300397216.txt use Yamb matches 1 time 5
 D:\Projects\Tests\CssDefiner\AllTests\0\-1301625020.txt - it does not css
 D:\Projects\Tests\CssDefiner\AllTests\0\-130176544.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1302440132.txt use 960 matches 16 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1302440132.txt use 960 matches 16 time 20
 D:\Projects\Tests\CssDefiner\AllTests\0\-1302616491.txt - it does not css
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1310534640.txt use Cascade matches 33 time 7
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1311412591.txt use Unknown Framework matches 0 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1310534640.txt use Cascade matches 33 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1311412591.txt use Unknown Framework matches 0 time 2
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1312715084.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1313219134.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1314585352.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1315797881.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1318363234.txt use Bootstrap matches 458 time 47
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1318363234.txt use Bootstrap matches 458 time 52
 D:\Projects\Tests\CssDefiner\AllTests\0\-1322340623.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1322468234.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1322805268.txt use Bootstrap2 matches 4 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1323462255.txt use GroundWork matches 10 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-132733362.txt use YUI matches 130 time 28
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-132733362.txt use YUI matches 130 time 26
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1327760177.txt use Unknown Framework matches 0 time 0
 D:\Projects\Tests\CssDefiner\AllTests\0\-1328939248.txt - it does not css
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1328948728.txt use Unknown Framework matches 0 time 0
 File: D:\Projects\Tests\CssDefiner\AllTests\0\-1330900116.txt use Unknown Framework matches 0 time 0
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1333253389.txt use Cascade matches 20 time 21
-File: D:\Projects\Tests\CssDefiner\AllTests\0\-1335394903.txt use Cascade matches 5 time 19
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1333253389.txt use Cascade matches 20 time 25
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1335394903.txt use Cascade matches 5 time 25
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-133560433.txt use YUI matches 84 time 14
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1335904503.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1337830380.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1340168048.txt use GroundWork matches 4 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1342161322.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1342300115.txt use Cascade matches 15 time 5
+D:\Projects\Tests\CssDefiner\AllTests\0\-1342985622.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1344212198.txt use Kube matches 2 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1345926115.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1350443373.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1351455702.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1351684782.txt use Cascade matches 5 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1351959769.txt use YUI matches 84 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1353832206.txt use Unknown Framework matches 0 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-1355328562.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1356088672.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1356289960.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1362543967.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1364235532.txt use Foundation matches 6 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-1365118208.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-136634170.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1367922649.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1368456720.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1368473934.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1370673895.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1371393259.txt use GroundWork matches 12 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1375236835.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1377007513.txt use YUI matches 23 time 26
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1377235347.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1379361002.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1380407948.txt use YUI matches 72 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1382358249.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1383874008.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1384852662.txt use GroundWork matches 882 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1386670736.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-138679725.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-139076028.txt use Cascade matches 18 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1391677308.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1391793077.txt use Helium matches 18 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1392961981.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1394501299.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1394660849.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1395627286.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1397292679.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1397425623.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1399615114.txt use Cascade matches 20 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1399744997.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1400515786.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1402052925.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-140361586.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1405877458.txt use Bootstrap2 matches 946 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1406504315.txt use Cascade matches 10 time 45
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1406570180.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1408876231.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1409076613.txt use Cascade matches 18 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-1410963321.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1411753145.txt use GroundWork matches 28 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1414402806.txt use Foundation matches 10 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-1414579777.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-1415216267.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1417293548.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-141994882.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1420641169.txt use YUI matches 8 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1421091263.txt use Cascade matches 13 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1422290783.txt use Less matches 6 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1422514007.txt use GroundWork matches 31 time 13
+D:\Projects\Tests\CssDefiner\AllTests\0\-1423552411.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1423989335.txt use YUI matches 10 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1424052117.txt use Cascade matches 40 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1426262896.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1426307629.txt use Bootstrap2 matches 107 time 20
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1428051545.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1429127776.txt use Unknown Framework matches 0 time 45
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1432324428.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-143297499.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1433057481.txt use Unknown Framework matches 0 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-143317436.txt use Cascade matches 14 time 28
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1434285294.txt use YUI matches 16 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1436252296.txt use Unknown Framework matches 0 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1436983719.txt use Cascade matches 26 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1437838854.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1438401905.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-143910162.txt use Cascade matches 15 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1440420453.txt use YUI matches 2 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1442094844.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1442725203.txt use Cascade matches 18 time 29
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1446018274.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1446460443.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1446593450.txt use KNACSS matches 30 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1446714553.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1448639723.txt use YUI matches 10 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-1448664436.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1452366333.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1452423038.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1453199426.txt use Unknown Framework matches 0 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-145320533.txt use Cascade matches 5 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1455659716.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1456534668.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1459570284.txt use YUI matches 90 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1461417769.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1462778707.txt use YUI matches 8 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1462872021.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1466313576.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1466373329.txt use Foundation matches 16 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1466689081.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1468641942.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-146972913.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1469977601.txt use GroundWork matches 13 time 20
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1472465009.txt use Unknown Framework matches 0 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1472987502.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1474275427.txt use TukTuk matches 2 time 34
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1474371351.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1474726109.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1475494792.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1476723220.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1478348349.txt use GroundWork matches 6 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1478906704.txt use Kube matches 6 time 42
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1480895622.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1481968467.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1484278887.txt use GroundWork matches 8 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1484836768.txt use Cascade matches 10 time 23
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1486695976.txt use Cascade matches 23 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1486935202.txt use Unknown Framework matches 0 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-1491145209.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-1491212855.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1492747376.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1494968659.txt use YUI matches 39 time 24
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1497027354.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1499855036.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1502340504.txt use Cascade matches 20 time 57
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1503151942.txt use NextGenGallery matches 1 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1503778158.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1503813309.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1504333913.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1505067128.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1505853707.txt use FEMCssFramework matches 6 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1506302590.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1506722647.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1513214784.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1514139055.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1515170516.txt use Ink matches 2 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1515623211.txt use Bootstrap2 matches 496 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1516727132.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1517105278.txt use YUI matches 31 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1517190255.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1517785352.txt use YUI matches 20 time 12
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1518281295.txt use Cascade matches 20 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1518706988.txt use Blueprint matches 20 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-15195516.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1521990168.txt use YUI matches 7 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1522880150.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1523138340.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1524976600.txt use ElastiCSS matches 1 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1528473684.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1529183309.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-152922063.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1529722250.txt use Topcoat matches 16 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1529726622.txt use Unknown Framework matches 0 time 20
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-153343775.txt use GroundWork matches 741 time 38
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1534067526.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1534242545.txt use NextGenGallery matches 19 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1534673549.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1537796396.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1541703677.txt use YUI matches 6 time 19
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1546202870.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1549404331.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-155189611.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-155243500.txt use Foundation matches 180 time 131
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1553738738.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1554066857.txt use Bootstrap2 matches 270 time 30
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1554176503.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1555357499.txt use Cascade matches 10 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1556291233.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1559587960.txt use Bootstrap2 matches 914 time 72
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1563248845.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-156338586.txt use Foundation matches 4 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1565898065.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-1565931762.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1566018632.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1567340461.txt use Helium matches 9 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1568637529.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-156890069.txt use Cascade matches 280 time 33
+D:\Projects\Tests\CssDefiner\AllTests\0\-1569321791.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-1569613539.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1571543572.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-157165281.txt use Cascade matches 20 time 51
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1573956850.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1576162853.txt use YUI matches 4 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1576307364.txt use GroundWork matches 21 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1576791827.txt use Unknown Framework matches 0 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1576830162.txt use Selva matches 3 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1581962474.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1582786019.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1583859034.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1584255573.txt use GroundWork matches 729 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-158460213.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-158477536.txt use Yamb matches 21 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1585032262.txt use Foundation matches 4 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1586580098.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1587078993.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1587296268.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1587917032.txt use Cascade matches 30 time 22
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1592418926.txt use Foundation matches 22 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-159284766.txt use Kube matches 6 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1594827000.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1596843777.txt use NextGenGallery matches 2 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-159785729.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1598373217.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1598504236.txt use Unknown Framework matches 0 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1598954477.txt use Unknown Framework matches 0 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1600268858.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1602215235.txt use Foundation matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1603445497.txt use YUI matches 4 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-160517847.txt use Selva matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1605677166.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1606000449.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-160750923.txt use G5Framework matches 4 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1608235633.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-160974875.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1612498097.txt use Cascade matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1612835856.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1617067785.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1617226768.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1620068948.txt use G5Framework matches 9 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1622556498.txt use Unknown Framework matches 0 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1623362961.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1623880520.txt use 960 matches 8 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1623880555.txt use 960 matches 8 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1623880802.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-162468489.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1626811881.txt use Unknown Framework matches 0 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-1627416024.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1627921350.txt use Bootstrap2 matches 2 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-16288757.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1629081393.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1629297738.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1630012774.txt use Cascade matches 412 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1630256355.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1630576309.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1631014661.txt use Bootstrap2 matches 331 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1633046742.txt use Cascade matches 20 time 22
+D:\Projects\Tests\CssDefiner\AllTests\0\-1633225486.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1633503420.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1635312449.txt use NextGenGallery matches 2 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1641677141.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1642446884.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1642668349.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1642725695.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1644416145.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1649694726.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-165065128.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1654160833.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1656622971.txt use Aeon matches 12 time 20
+D:\Projects\Tests\CssDefiner\AllTests\0\-1656789765.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-165691088.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1657609523.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1657797383.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1659659408.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1664435110.txt use Bootstrap2 matches 4 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1664443609.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1665862246.txt use UIKit matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1667620609.txt use Bootstrap2 matches 6 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1668407076.txt use NextGenGallery matches 2 time 8
+D:\Projects\Tests\CssDefiner\AllTests\0\-1668615636.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-16696745.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1669817952.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1669974233.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1670344672.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1671059780.txt use Bootstrap matches 36 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1672046021.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-1672046045.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1672271128.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1672689454.txt use GroundWork matches 34 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1675060629.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1675154050.txt use GroundWork matches 37 time 35
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1676313074.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1677469687.txt use Bootstrap2 matches 631 time 34
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1678855337.txt use GroundWork matches 1951 time 64
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1680736086.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1682634676.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-168297170.txt use UIKit matches 131 time 20
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1683493720.txt use Bootstrap matches 57 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1684281269.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-168435858.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1684696066.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1685810166.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1687072114.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1687219616.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1687790519.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1692810652.txt use YUI matches 88 time 41
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1694827910.txt use Unknown Framework matches 0 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1696186132.txt use Cascade matches 5 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-1696521588.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1697191542.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1700022931.txt use Foundation matches 4 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1700365037.txt use Cascade matches 5 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1701272904.txt use YUI matches 3 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1701863818.txt use Helium matches 29 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1702016445.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1702897962.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1704719869.txt use YUI matches 75 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-170552617.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1705920859.txt use Cascade matches 163 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1706463800.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1706465474.txt use YUI matches 84 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1707096861.txt use Foundation matches 8 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1711325054.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1715786843.txt use UIKit matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1719543408.txt use Cascade matches 15 time 25
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1721210778.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-172172744.txt use 99lime matches 10 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1722855776.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1725824149.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-17258912.txt use Unknown Framework matches 0 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1726659860.txt use YUI matches 124 time 8
+D:\Projects\Tests\CssDefiner\AllTests\0\-1728432620.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1731627319.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-173186267.txt use Cascade matches 13 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1732832322.txt use Unknown Framework matches 0 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-1732915744.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1734754132.txt use Metro matches 5 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1736288260.txt use Unknown Framework matches 0 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1738277265.txt use GroundWork matches 28 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1738735797.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1739368683.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1740877244.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1741661814.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1742131525.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1744676687.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1745905438.txt use YUI matches 28 time 25
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1746401060.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1746523240.txt use YUI matches 7 time 39
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1747177918.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1747400158.txt use Cascade matches 448 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1747585636.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1753951681.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1756471569.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1757489383.txt use YUI matches 65 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1757947063.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-175828944.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1760040395.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1760132929.txt use YUI matches 77 time 39
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-176075198.txt use Unknown Framework matches 0 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1761684426.txt use flaminwork matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1763647586.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-176391595.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1764284335.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1764488844.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-176804203.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1768251750.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1770138950.txt use Ink matches 15 time 61
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-177044160.txt use Unknown Framework matches 0 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1770478558.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1771495463.txt use Cascade matches 15 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1772879010.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1774474053.txt use Bootstrap2 matches 914 time 24
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1775320369.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1776266136.txt use G5Framework matches 11 time 20
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1776640364.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1777189611.txt use GroundWork matches 15 time 65
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1777914647.txt use NextGenGallery matches 2 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-1778135703.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1778307685.txt use GroundWork matches 24 time 28
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1778307770.txt use Unknown Framework matches 0 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1780110851.txt use NextGenGallery matches 30 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-1780866420.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1783060315.txt use Bootstrap matches 91 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-178507013.txt use Cascade matches 10 time 4
+D:\Projects\Tests\CssDefiner\AllTests\0\-1786117472.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1786469706.txt use GroundWork matches 10 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-178663932.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1787833581.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1788151406.txt use Unknown Framework matches 0 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1788301689.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-17907788.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1791152648.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1792284713.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1794187322.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-179467140.txt use YUI matches 116 time 14
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1794755113.txt use NextGenGallery matches 138 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1796083924.txt use Selva matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1796657706.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1797401037.txt use Unknown Framework matches 0 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1798217971.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1799819825.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1800078599.txt use Bootstrap2 matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1800179197.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1801570005.txt use Foundation matches 14 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1808803169.txt use Cascade matches 15 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1810661038.txt use GroundWork matches 4 time 30
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1810890860.txt use YUI matches 57 time 33
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1811551269.txt use Bootstrap matches 424 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-181206683.txt use Kube matches 6 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1814157951.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1814266287.txt use GroundWork matches 34 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1814504015.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1816818800.txt use YUI matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-181721779.txt use GroundWork matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1817230822.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-181750581.txt use Unknown Framework matches 0 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1818682836.txt use Cascade matches 31 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1820054449.txt use NextGenGallery matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1820759506.txt use YUI matches 38 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1822905547.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1822935114.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1823403809.txt use Kube matches 6 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1824086149.txt use YUI matches 71 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1825097802.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1825850326.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1826999730.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1827490094.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1828296575.txt use Cascade matches 15 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1828527664.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1828818628.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1830725990.txt use GroundWork matches 8 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1830829675.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1832292241.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1833522045.txt use YUI matches 93 time 19
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-183544226.txt use Bootstrap2 matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1840667813.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1841279701.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1843113326.txt use GroundWork matches 6 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1843955253.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1844052312.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-184501378.txt use Kube matches 2 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1845026962.txt use 960 matches 8 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1848356118.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1848591100.txt use Cascade matches 21 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1848603223.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1849756767.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1850355126.txt use YUI matches 83 time 19
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1850468164.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1850590787.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1850765911.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1851197838.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1852936359.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1856806263.txt use Cascade matches 10 time 9
+D:\Projects\Tests\CssDefiner\AllTests\0\-185937120.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1859458650.txt use flaminwork matches 2 time 54
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1860976554.txt use YUI matches 75 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1864149405.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1866015016.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1866488958.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1867008538.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1867579408.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1867955104.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1868079773.txt use YUI matches 88 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1869043501.txt use YUI matches 13 time 20
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1869890952.txt use GroundWork matches 6 time 41
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1870830156.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1873342369.txt use YUI matches 7 time 10
+D:\Projects\Tests\CssDefiner\AllTests\0\-1874532371.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-187502206.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1875213661.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1877392641.txt use Cascade matches 30 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1881416753.txt use Unknown Framework matches 0 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-1886549040.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-1889191242.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1889349689.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1891897656.txt use Unknown Framework matches 0 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1897390783.txt use Bootstrap matches 237 time 33
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1897491478.txt use GroundWork matches 54 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1899209342.txt use GroundWork matches 6 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1899751282.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1903739681.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1903879223.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1904256257.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1904497046.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1905435126.txt use Unknown Framework matches 0 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-190748255.txt use Bootstrap matches 710 time 11
+D:\Projects\Tests\CssDefiner\AllTests\0\-1908012052.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1908296759.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1910252876.txt use Cascade matches 10 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1911502442.txt use Cascade matches 5 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1911556811.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1913110781.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1915036722.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1915691114.txt use YUI matches 23 time 4
+D:\Projects\Tests\CssDefiner\AllTests\0\-1916754725.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1918163017.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1918820021.txt use Helium matches 11 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-191935564.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1919801417.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1920745300.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1924971878.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1925045501.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1926795988.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1927118232.txt use Less matches 3 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1927676559.txt use Cascade matches 16 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1927873781.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1929271838.txt use Unknown Framework matches 0 time 4
+D:\Projects\Tests\CssDefiner\AllTests\0\-1929770016.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-193037795.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1930767521.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1931114862.txt use Unknown Framework matches 0 time 20
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1931114887.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1931115349.txt use Unknown Framework matches 0 time 25
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1933117863.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1933597626.txt use Cascade matches 20 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1936143816.txt use YUI matches 3 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1936678465.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1937336637.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1937682695.txt use Cascade matches 5 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1938164535.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1938525867.txt use YUI matches 6 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1938670579.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1939265609.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1939518746.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-194078316.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-19421600.txt use Cascade matches 5 time 14
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-194236520.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1942585757.txt use YUI matches 10 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1944139626.txt use Unknown Framework matches 0 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-194430948.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-194734117.txt use Unknown Framework matches 0 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1947406276.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1952193811.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1953460405.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1955377218.txt use YUI matches 88 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1956254276.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1956311196.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1958119223.txt use Cascade matches 5 time 39
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1959870080.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1961437078.txt use YUI matches 27 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1961469777.txt use GroundWork matches 13 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1963763864.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1967374417.txt use Unknown Framework matches 0 time 32
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1967417471.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1968354964.txt use YUI matches 3 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1970426419.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1970839825.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1971164544.txt use UIKit matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1971241235.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-1971818530.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1972574889.txt use YUI matches 20 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1974035362.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1974107161.txt use 960 matches 17 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1975773715.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-197658706.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1976840080.txt use Cascade matches 30 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-197739109.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1980492452.txt use GroundWork matches 6 time 45
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-198076373.txt use Unknown Framework matches 0 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-198208744.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1982231926.txt use YUI matches 29 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1983001141.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1984000949.txt use Bootstrap matches 99 time 79
+D:\Projects\Tests\CssDefiner\AllTests\0\-1984335920.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1988255874.txt use Cascade matches 8 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1989488896.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1989540889.txt use GroundWork matches 10 time 14
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1993105225.txt use GroundWork matches 10 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-199332312.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1995219720.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1996166064.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-199629736.txt use Cascade matches 11 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-199717834.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1998224231.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-1999370534.txt use Unknown Framework matches 0 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2001780095.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-2003113575.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2004414688.txt use GroundWork matches 15 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2005437036.txt use Unknown Framework matches 0 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2006169843.txt use Unknown Framework matches 0 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2006929332.txt use Bootstrap2 matches 149 time 11
+D:\Projects\Tests\CssDefiner\AllTests\0\-2007027175.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2007306123.txt use YUI matches 40 time 16
+D:\Projects\Tests\CssDefiner\AllTests\0\-2007387706.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2009610129.txt use YUI matches 8 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2011136262.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2011554455.txt use Unknown Framework matches 0 time 23
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2013351046.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2013888029.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-201401403.txt use Unknown Framework matches 0 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2015173824.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2015220216.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-201781355.txt use YUI matches 3 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2018034648.txt use YUI matches 8 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2019363974.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2019777295.txt use YUI matches 77 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2020859167.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2021255834.txt use YUI matches 1 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2021402632.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2026553957.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2027008585.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2027458954.txt use Kube matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2027603771.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2028706742.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2033662088.txt use Unknown Framework matches 0 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-2034822693.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2035277378.txt use GroundWork matches 2 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2035453990.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2036287522.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2036443979.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-2038386571.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-2038459488.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2040241088.txt use YUI matches 22 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2040392792.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2044281451.txt use Cascade matches 18 time 57
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-204636894.txt use Cascade matches 21 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-204668614.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2048760909.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2048882874.txt use YUI matches 2 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2049394373.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2053602639.txt use GroundWork matches 474 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-2054383068.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2056947850.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2057008588.txt use Unknown Framework matches 0 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-2058199313.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2059944798.txt use YUI matches 78 time 23
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2060894754.txt use NextGenGallery matches 2 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2061180240.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2061345272.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2061572077.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2063476736.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-2063838390.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2064788405.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2066393377.txt use Foundation matches 464 time 71
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2067105446.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-207037533.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2071138642.txt use Cascade matches 30 time 12
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2071579117.txt use Bootstrap matches 135 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2075690555.txt use YUI matches 3 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2076864329.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2078013842.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-2078156435.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2079143523.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2080981514.txt use Unknown Framework matches 0 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-2082277988.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2083877494.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2086280527.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2087837555.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2089488013.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2089694812.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2090357391.txt use Foundation matches 12 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2091133945.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-209149728.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2091857500.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2091939590.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-209381215.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2096180729.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2097309311.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2100636752.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-2107220371.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2110602614.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2111167944.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2111387228.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2111502524.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2113154424.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2115192893.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2117704627.txt use YUI matches 9 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2118211824.txt use NextGenGallery matches 2 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2118844130.txt use Cascade matches 30 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2121565275.txt use Cascade matches 15 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2126526044.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2127207476.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2129611831.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2131299708.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2132194109.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2132673662.txt use Cascade matches 15 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2135323707.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2137344547.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-2139528922.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-2139732489.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2139857291.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-214054052.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2140547679.txt use Unknown Framework matches 0 time 42
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2142289054.txt use KNACSS matches 18 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2142303181.txt use YUI matches 20 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2143787808.txt use YUI matches 77 time 22
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2144097164.txt use YUI matches 1 time 60
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2144495042.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2145663306.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-2146385407.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-216490079.txt use Unknown Framework matches 0 time 3
+D:\Projects\Tests\CssDefiner\AllTests\0\-216952943.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-218713321.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-219447332.txt use Kube matches 10 time 36
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-220122888.txt use Unknown Framework matches 0 time 12
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-223723631.txt use YUI matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-225402687.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-226439402.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-227419007.txt use Unknown Framework matches 0 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-230196111.txt use Helium matches 1 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-231198823.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-231618456.txt use Metro matches 1 time 32
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-23208524.txt use Foundation matches 36 time 34
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-236797167.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-241209664.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-241618516.txt use Cascade matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-242156302.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-243767745.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-24481077.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-248034666.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-248144998.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-248581592.txt use YUI matches 7 time 26
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-249644953.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-249790196.txt use 320andUp matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-251022232.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-251588145.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-252846112.txt use Yamb matches 16 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-256055599.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-257794083.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-258016081.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-258792901.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-260713571.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-261976851.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-262022494.txt use Cascade matches 5 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-262703470.txt use YUI matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-26387965.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-264879087.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-266162142.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-266174938.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-266853555.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-268434357.txt use G5Framework matches 2 time 61
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-268886493.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-269259956.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-26945556.txt use YUI matches 3 time 25
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-269657641.txt use Cascade matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-272999909.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-274213534.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-274616360.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-274899217.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-274902053.txt use Kube matches 6 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-275154471.txt use Bootstrap2 matches 16 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-277988661.txt use GroundWork matches 11 time 40
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-278466278.txt use Bootstrap2 matches 108 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-280023406.txt use Foundation matches 4 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-28137888.txt use YUI matches 64 time 22
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-283477106.txt use 960 matches 8 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-284684618.txt use Cascade matches 10 time 22
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-286978423.txt use GroundWork matches 39 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-288051982.txt use Semantic matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-28826096.txt use Unknown Framework matches 0 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-289170662.txt use YUI matches 4 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-289435223.txt use Semantic matches 2 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-289553001.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-290892474.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-290999423.txt use YUI matches 3 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-292572966.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-295469295.txt use Semantic matches 4 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-298302236.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-301218662.txt use Foundation matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-301548778.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-303900799.txt use Bootstrap matches 533 time 33
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-304077642.txt use Bootstrap2 matches 28 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-305867132.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-306755923.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-308726820.txt use Bootstrap matches 652 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-312127907.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-312353770.txt use Cascade matches 48 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-315533426.txt use Cascade matches 11 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-317177154.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-324821316.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-325963392.txt use GroundWork matches 18 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-329255904.txt use Bootstrap matches 277 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-329503426.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-329658291.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-338181967.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-338508052.txt use YUI matches 9 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-338706238.txt use TukTuk matches 2 time 30
+D:\Projects\Tests\CssDefiner\AllTests\0\-339332337.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-339969767.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-342581482.txt use Cascade matches 20 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-344505735.txt use Unknown Framework matches 0 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-346063204.txt use YUI matches 10 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-34611867.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-349889249.txt use YUI matches 27 time 17
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-349994834.txt use Unknown Framework matches 0 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-350637731.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-351303523.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-352065598.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-353380241.txt use Selva matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-353596032.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-355682267.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-361372131.txt use Ink matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-362351807.txt use YUI matches 13 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-362578964.txt use Cascade matches 15 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-365490692.txt use Helium matches 5 time 5
+D:\Projects\Tests\CssDefiner\AllTests\0\-368914799.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-370230311.txt use YUI matches 11 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-370255568.txt use Unknown Framework matches 0 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-370808835.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-371157008.txt use GroundWork matches 16 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-371757884.txt use Bootstrap matches 12 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-372064761.txt use Cascade matches 10 time 11
+D:\Projects\Tests\CssDefiner\AllTests\0\-377525473.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-379478131.txt use Selva matches 2 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-379938058.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-382334294.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-382403838.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-383197916.txt use Unknown Framework matches 0 time 38
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-383347771.txt use YUI matches 17 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-383927003.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-38458567.txt use Foundation matches 4 time 29
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-386721553.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-386989099.txt use Cascade matches 3 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-387518311.txt use YUI matches 76 time 65
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-390903346.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-392404970.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-393257603.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-3936816.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-395624274.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-397416576.txt use Cascade matches 20 time 16
+D:\Projects\Tests\CssDefiner\AllTests\0\-399259324.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-401140675.txt use UIKit matches 5 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-406312824.txt use Bootstrap2 matches 2 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-406437150.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-40665965.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-408080890.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-410213707.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-411159561.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-412659679.txt use YUI matches 8 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-414780960.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-414842158.txt use YUI matches 18 time 10
+D:\Projects\Tests\CssDefiner\AllTests\0\-415306316.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-415559034.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-415566611.txt use Cascade matches 15 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-419255.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-419793495.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-422523921.txt use UIKit matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-424423151.txt use GroundWork matches 17 time 39
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-425705891.txt use Semantic matches 4 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-427757031.txt use BlueTrip matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-430385097.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-431079909.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-431732999.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-431769982.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-431905986.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-434177734.txt use Unknown Framework matches 0 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-436554562.txt use Cascade matches 18 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-437337634.txt use YUI matches 19 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-437388916.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-439701120.txt use Metro matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-440120645.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-440503701.txt use Unknown Framework matches 0 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-440517400.txt use GroundWork matches 16 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-440966415.txt use YUI matches 18 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-442705035.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-446015310.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-448398503.txt use YUI matches 9 time 18
+D:\Projects\Tests\CssDefiner\AllTests\0\-449273729.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-449309640.txt use YUI matches 114 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-449835847.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-450654427.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-45074000.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-453308894.txt use 99lime matches 36 time 39
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-454292360.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-454785749.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-456117708.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-456775282.txt use 960 matches 196 time 30
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-456871056.txt use Selva matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-461026177.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-461062967.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-464971133.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-467535683.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-467750412.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-468449434.txt use FEMCssFramework matches 15 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-470598683.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-472085284.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-472433374.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-472433407.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-472767217.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-47363961.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-474849379.txt use Bootstrap matches 13 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-475576001.txt use YUI matches 3 time 23
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-477257965.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-477993862.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-478138895.txt use FEMCssFramework matches 7 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-478480124.txt use Bootstrap matches 128 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-483879693.txt use YUI matches 5 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-485784961.txt use TukTuk matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-486132904.txt use Unknown Framework matches 0 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-490129709.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-49082747.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-491082273.txt use YUI matches 8 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-493128457.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-493700144.txt use YUI matches 24 time 8
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-495652162.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-49663015.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-497324968.txt use Unknown Framework matches 0 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-498781009.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-498846542.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-499239773.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-499239780.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-499837508.txt use Unknown Framework matches 0 time 28
+D:\Projects\Tests\CssDefiner\AllTests\0\-499960659.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-499960666.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-500222800.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-500770457.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-50086783.txt use Helium matches 49 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-506739897.txt use Semantic matches 2 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-509188990.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-510680620.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-513071902.txt use 99lime matches 60 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-513967368.txt use YUI matches 150 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-514236283.txt use YUI matches 22 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-51543963.txt use YUI matches 3 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-516855916.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-519357598.txt use Unknown Framework matches 0 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-522558882.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-522666395.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-524608212.txt use Bootstrap matches 247 time 26
+D:\Projects\Tests\CssDefiner\AllTests\0\-524735107.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-526669816.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-528005560.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-530617195.txt use GroundWork matches 4 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-533692817.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-53437894.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-535123311.txt use GroundWork matches 11 time 6
+D:\Projects\Tests\CssDefiner\AllTests\0\-537875005.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-538872576.txt use Unknown Framework matches 0 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-540808473.txt use Foundation matches 10 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\-541935460.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-543926761.txt use YUI matches 6 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-545420009.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-54649419.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-546986921.txt use YUI matches 7 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-548743328.txt use GroundWork matches 6 time 12
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-54909111.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-55066293.txt use Cascade matches 15 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-556752405.txt use Bootstrap matches 108 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-556846996.txt use YUI matches 6 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-559125469.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-559571410.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-559794249.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-560097496.txt use Cascade matches 5 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-561140544.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-563491862.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-563843131.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-563912977.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-564241066.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-565017039.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-565361181.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-566082574.txt use Foundation matches 4 time 12
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-569539085.txt use GroundWork matches 42 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-570611200.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-572415588.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-577735688.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-577810220.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-580156641.txt use Unknown Framework matches 0 time 12
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-581895533.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-585101814.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-585692304.txt use Cascade matches 15 time 40
+D:\Projects\Tests\CssDefiner\AllTests\0\-58668054.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-58819257.txt use KNACSS matches 78 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-589028655.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-590611194.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-59124395.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-591518717.txt use G5Framework matches 1 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-591716922.txt use YUI matches 78 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-592268193.txt use YUI matches 6 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-592529693.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-595492862.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-597340776.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-597526239.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-600255784.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-603177538.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-603260821.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-603426209.txt use Cascade matches 8 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-603564464.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-603751585.txt use Unknown Framework matches 0 time 51
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-607299139.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-608757268.txt use FEMCssFramework matches 13 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-609533939.txt use YUI matches 73 time 26
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-611130595.txt use YUI matches 13 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-611959049.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-612857609.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-614640418.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-615828610.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-61821954.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-618596219.txt use Cascade matches 15 time 26
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-618946535.txt use Unknown Framework matches 0 time 30
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-621956873.txt use Blueprint matches 222 time 19
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-622840750.txt use 99lime matches 14 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-62432393.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-625712114.txt use NextGenGallery matches 2 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-625814798.txt use Unknown Framework matches 0 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-627175674.txt use Bootstrap2 matches 1 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-627996140.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-630844520.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-630884069.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-630886417.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-631161735.txt use Unknown Framework matches 0 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-632336340.txt use Foundation matches 14 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-632935644.txt use 960 matches 9 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-633098198.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-633853219.txt use YUI matches 80 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-634196958.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-637291616.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-637452070.txt use Unknown Framework matches 0 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-638660435.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-641990769.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-642049495.txt use GroundWork matches 6 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-644443189.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-646343586.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-656798110.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-656853531.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-661713192.txt use Cascade matches 25 time 10
+D:\Projects\Tests\CssDefiner\AllTests\0\-662010602.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-663002700.txt use Helium matches 29 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-666949233.txt use Unknown Framework matches 0 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-668450531.txt use Foundation matches 6 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-669024808.txt use Bootstrap2 matches 757 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-669028534.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-669521958.txt use YUI matches 88 time 29
+D:\Projects\Tests\CssDefiner\AllTests\0\-670304286.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-671204045.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-671835534.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-672264093.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-672467948.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-672686839.txt use YUI matches 85 time 17
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-675629464.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-677170553.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-677518354.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-679467869.txt use Cascade matches 10 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-679530098.txt use Unknown Framework matches 0 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-680441189.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-681029983.txt use Selva matches 1 time 12
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-681249273.txt use Unknown Framework matches 0 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-681553754.txt use YUI matches 24 time 35
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-68561492.txt use Cascade matches 3 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-686444577.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-689116124.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-691405259.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-692963309.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-69494345.txt use NextGenGallery matches 2 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-697021534.txt use YUI matches 6 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-69757964.txt use GroundWork matches 6 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-698189078.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-698317.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-701494658.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-701784666.txt use Bootstrap2 matches 4 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-702369264.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-702902314.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-704574944.txt use YUI matches 93 time 43
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-706608880.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-710044056.txt use Unknown Framework matches 0 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-71065112.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-711603625.txt use YUI matches 110 time 47
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-713549353.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-713632052.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-714306553.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-715684056.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-716475178.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-718867543.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-721330046.txt use YUI matches 4 time 29
+D:\Projects\Tests\CssDefiner\AllTests\0\-723197278.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-723808931.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-724356611.txt use Unknown Framework matches 0 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-725507117.txt use GroundWork matches 6 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-726012195.txt use Blueprint matches 18 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-727029820.txt use KNACSS matches 4 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-728080982.txt use YUI matches 3 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-728881182.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-730807779.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-731629546.txt use Cascade matches 15 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-732186682.txt use YUI matches 17 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-73291215.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-733518994.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-736870592.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-73796723.txt use YUI matches 15 time 43
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-739877506.txt use Cascade matches 5 time 4
+D:\Projects\Tests\CssDefiner\AllTests\0\-741041599.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-741293271.txt use Cascade matches 10 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-741843972.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-741986441.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-742034526.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-742230182.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-742297641.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-742833989.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-742938357.txt use YUI matches 70 time 73
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-744961104.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-746205839.txt use Kube matches 2 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-746805425.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-747180915.txt use Bootstrap2 matches 79 time 34
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-750890416.txt use Cascade matches 15 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-751720800.txt use G5Framework matches 3 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-752112120.txt use Unknown Framework matches 0 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-753261872.txt use 99lime matches 14 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-753649972.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-75770813.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-757902224.txt use YUI matches 7 time 28
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-75829851.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-759637582.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-761723684.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-764139020.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-764316783.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-765699918.txt use YUI matches 6 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-766446332.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-767485475.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-7677856.txt use GroundWork matches 14 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-768545616.txt use Metro matches 2 time 14
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-771234858.txt use Blueprint matches 13 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-775422186.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-776212844.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-776391112.txt use Bootstrap2 matches 897 time 19
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-776759510.txt use Cascade matches 8 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-776775378.txt use GroundWork matches 26 time 27
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-778227707.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-780752311.txt use YUI matches 6 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-781032807.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-784012275.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-784405638.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-785445268.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-786089262.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-787520871.txt use Cascade matches 49 time 15
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-790177855.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-790639706.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-791846247.txt use Yamb matches 8 time 12
+D:\Projects\Tests\CssDefiner\AllTests\0\-792080268.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-794008935.txt use Unknown Framework matches 0 time 17
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-795031415.txt use GroundWork matches 6 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-801201278.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-803114200.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-804083190.txt use Foundation matches 14 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-804859717.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-805214577.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-806890576.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-807248388.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-809036955.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-80932202.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-811768890.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-811813542.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-813125988.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-813498620.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-815322682.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-815931143.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-817836611.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-818229053.txt use YUI matches 3 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-820297902.txt use G5Framework matches 2 time 52
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-820859390.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-821539660.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-821688829.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-824444733.txt use Foundation matches 4 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-82476346.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-829248990.txt use NextGenGallery matches 2 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-831537784.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-831641007.txt use TukTuk matches 1 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\-83188148.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-831987927.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-833611736.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-838682016.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-84046772.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-842901327.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-843989167.txt use NextGenGallery matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-844046388.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-844570344.txt use Bootstrap2 matches 936 time 14
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-844764959.txt use Cascade matches 5 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-84687915.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-848589371.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-849124474.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-849168588.txt use YUI matches 3 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-850464046.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-851367097.txt use Foundation matches 4 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-851591989.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-85304710.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-853466490.txt use Cascade matches 10 time 62
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-854085964.txt use Cascade matches 5 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-855755343.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-856439087.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-858442034.txt use 960 matches 8 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-859205667.txt use Cascade matches 5 time 30
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-862367520.txt use YUI matches 69 time 16
+D:\Projects\Tests\CssDefiner\AllTests\0\-862741981.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-865593057.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-865899956.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-867527012.txt use GroundWork matches 6 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-868166962.txt use UIKit matches 5 time 28
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-868432798.txt use YUI matches 2 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-869765717.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-870043683.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-8724514.txt use KNACSS matches 28 time 11
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-873180877.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-873334146.txt use YUI matches 13 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-876963877.txt use Unknown Framework matches 0 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-878215061.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-878441082.txt use YUI matches 3 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-878975610.txt use GroundWork matches 17 time 14
+D:\Projects\Tests\CssDefiner\AllTests\0\-882204100.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-883144586.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-883790880.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-883937302.txt use Foundation matches 14 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-885043364.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-885295472.txt use Unknown Framework matches 0 time 10
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-885441950.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-886152496.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-887944648.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-888222986.txt use Bootstrap matches 458 time 37
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-88823616.txt use GroundWork matches 18 time 137
+D:\Projects\Tests\CssDefiner\AllTests\0\-888461812.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-89191614.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-89349534.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-89528895.txt use Yamb matches 10 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-896131643.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-899014838.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-899945847.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-901885232.txt use Cascade matches 5 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-905234533.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-905728257.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-905830844.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-908387388.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-910505145.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-910624074.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-914064504.txt use KNACSS matches 4 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-914420393.txt use Kube matches 2 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-915451231.txt use YUI matches 14 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-916418294.txt use Bootstrap2 matches 44 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-918660594.txt use Helium matches 24 time 12
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-919575889.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-920134726.txt use NextGenGallery matches 2 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-921497623.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-92317093.txt use Cascade matches 47 time 20
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-924081041.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-925450642.txt use FEMCssFramework matches 6 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-926013961.txt use YUI matches 87 time 51
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-928477015.txt use 99lime matches 61 time 42
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-929495716.txt use Cascade matches 31 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-930306749.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-931884668.txt use Foundation matches 14 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-935820113.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-936473714.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-936761287.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-937207868.txt use YUI matches 5 time 6
+D:\Projects\Tests\CssDefiner\AllTests\0\-937778760.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-93782019.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-938324725.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-938332185.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-938864736.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-939786088.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-941111237.txt use Unknown Framework matches 0 time 3
+D:\Projects\Tests\CssDefiner\AllTests\0\-941951452.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-942329389.txt use Unknown Framework matches 0 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-943851144.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-943928032.txt use YUI matches 23 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-944243592.txt use BlueTrip matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-945319134.txt use GroundWork matches 6 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-945607429.txt use GroundWork matches 2 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-945798910.txt - it does not css
+D:\Projects\Tests\CssDefiner\AllTests\0\-947318381.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-948207000.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-948379962.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-948435691.txt use GroundWork matches 27 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-948968511.txt use Cascade matches 10 time 13
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-949686440.txt use Yamb matches 1 time 5
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-949757693.txt use YUI matches 86 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-950373806.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-950937948.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-953485011.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-953789327.txt use YUI matches 150 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-953941322.txt use Cascade matches 3 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-955962854.txt use Selva matches 3 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-957172440.txt use G5Framework matches 1 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-958443114.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-960247551.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-961224507.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-963068311.txt use Unknown Framework matches 0 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-964312536.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-965358606.txt use Cascade matches 29 time 22
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-967786015.txt use Unknown Framework matches 0 time 1
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-969009276.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-969508807.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-970262672.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-970465435.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-97177617.txt use Cascade matches 8 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-972536720.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-973392155.txt use Cascade matches 5 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-973908434.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-973967294.txt use TukTuk matches 1 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-974267929.txt use Cascade matches 16 time 7
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-978750550.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-980267499.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-981532651.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-981715782.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-982005791.txt use NextGenGallery matches 3 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-983495927.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-983738145.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-985366082.txt use Cascade matches 8 time 3
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-985569481.txt use Ink matches 3 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\-985694445.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-98654989.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-989353303.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-994286454.txt use Foundation matches 820 time 14
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-995025059.txt use YUI matches 83 time 21
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-995396898.txt use Unknown Framework matches 0 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-99555836.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-996126952.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-99644591.txt use Cascade matches 10 time 4
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-999274658.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\-999848770.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1000447911.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1002550343.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1005533864.txt use YUI matches 4 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1006152709.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1006990925.txt use Cascade matches 16 time 16
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1007484002.txt use YUI matches 12 time 0
+D:\Projects\Tests\CssDefiner\AllTests\0\1010556716.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1011841688.txt use GroundWork matches 8 time 9
+File: D:\Projects\Tests\CssDefiner\AllTests\0\101285261.txt use Unknown Framework matches 0 time 2
+D:\Projects\Tests\CssDefiner\AllTests\0\1015697575.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1016626804.txt use FEMCssFramework matches 6 time 2
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1017358428.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1017451671.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1018104851.txt use YUI matches 14 time 19
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1020091499.txt use Cascade matches 16 time 14
+D:\Projects\Tests\CssDefiner\AllTests\0\1021251581.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1022028469.txt use Cascade matches 5 time 6
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1022063321.txt use Unknown Framework matches 0 time 18
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1022296140.txt use Cascade matches 5 time 26
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1022713842.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1023190732.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1025671522.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1025774479.txt use Unknown Framework matches 0 time 0
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1027106934.txt use Unknown Framework matches 0 time 1
+D:\Projects\Tests\CssDefiner\AllTests\0\10279432.txt - it does not css
+File: D:\Projects\Tests\CssDefiner\AllTests\0\1028564401.txt use Unknown Framework matches 0 time 0

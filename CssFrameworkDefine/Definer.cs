@@ -17,6 +17,7 @@ namespace CssFrameworkDefine
         /// Dictionary of css properties
         /// </summary>
         private Dictionary<string, int> CssProperties;
+        private Dictionary<string, int> result;
         /// <summary>
         /// list of original css frameworks
         /// </summary>
@@ -33,6 +34,7 @@ namespace CssFrameworkDefine
 
         public Definer()
         {
+            result = new Dictionary<string, int>();
             frameworksNameCollection = new List<string>();
             CssProperties = new Dictionary<string, int>();
             //Add all properties in Dictionary
@@ -52,6 +54,7 @@ namespace CssFrameworkDefine
         /// <param name="paths">Array of paths in framework </param>
         public void AddFramework(string name, params string[] paths)
         {
+            result.Add(name, 0);
             frameworksNameCollection.Add(name);
             foreach (var path in paths)
             {
@@ -112,16 +115,10 @@ namespace CssFrameworkDefine
         /// <returns>Dictionary key - the name of the framework, the value - the number of matches found</returns>
         public Dictionary<string, int> Define(string css)
         {
-            Dictionary<string, int> results = new Dictionary<string, int>();
 
-
-            foreach (var name in frameworksNameCollection)
-            {
-                results.Add(name, 0);
-            }
-
-
-
+            foreach(var key in result.Keys.ToList())
+                result[key] = 0;
+            
             IList<ExCSS.StyleRule> stylesheet;
             try
             {
@@ -136,18 +133,23 @@ namespace CssFrameworkDefine
 
             var styleRules = Load(stylesheet);
 
+            var style = new Style();
+
             foreach (var rule in styleRules)
             {
-
-                var frameworksName = DetectFramework(new Style { Name = rule.Key, Properties = rule.Value });
+                style.Name = rule.Key;
+                style.Properties = rule.Value;
+                if (!originalFrameworks.ContainsKey(style))
+                    continue;
+                var frameworksName = originalFrameworks[style];
                 if (frameworksName != null)
                     foreach (var name in frameworksName)
                     {
-                        results[name]++;
+                        result[name]++;
                     }
             }
-            MostSuitableFramework = results.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
-            return results;
+            MostSuitableFramework = result.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+            return result;
         }
 
 
