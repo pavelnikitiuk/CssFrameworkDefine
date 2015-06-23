@@ -160,6 +160,7 @@ namespace CssFrameworkDefine
             foreach (var rule in rules)
             {
                 var mask = new BitMask();
+                
                 foreach (var propery in rule.Declarations.Properties)
                 {
                     if (CssProperties.ContainsKey(propery.Name))

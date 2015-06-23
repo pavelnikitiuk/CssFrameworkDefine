@@ -17,18 +17,16 @@ namespace CssFrameworkDefine
             {
                 if (index < 0 || index > 374)
                     throw new ArgumentException();
-                byte num = (byte)(index / 64);
-                byte offset = (byte)(index - num * 64);
-                 return (mask[num] & ((ulong)1 << offset )) != 0;
+                var num = index >> 8;
+                var offset = index & 63;
+                return (mask[num] & ((ulong)1 << offset )) != 0;
             }
             set
             {
                 if (index < 0 || index > 374)
                     throw new ArgumentException();
-                byte num = (byte)(index / 64);
-
-                byte offset = (byte)(index - num * 64);
-
+                var num = index >> 8;
+                var offset = index & 63;
                 mask[num] ^= (ulong)1 << offset;
             }
 
