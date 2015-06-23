@@ -17,7 +17,7 @@ namespace CssFrameworkDefine
             {
                 if (index < 0 || index > 374)
                     throw new ArgumentException();
-                var num = index >> 8;
+                var num = index >> 6;
                 var offset = index & 63;
                 return (mask[num] & ((ulong)1 << offset )) != 0;
             }
@@ -25,7 +25,7 @@ namespace CssFrameworkDefine
             {
                 if (index < 0 || index > 374)
                     throw new ArgumentException();
-                var num = index >> 8;
+                var num = index >> 6;
                 var offset = index & 63;
                 mask[num] ^= (ulong)1 << offset;
             }
