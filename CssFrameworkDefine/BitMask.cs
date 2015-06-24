@@ -10,6 +10,14 @@ namespace CssFrameworkDefine
     {
         private ulong[] mask;
 
+        public static BitMask operator |(BitMask a, BitMask b)
+        {
+            BitMask result = new BitMask();
+
+            for (int i = 0; i < a.mask.Length; i++)
+                result.mask[i] = a.mask[i] | b.mask[i];
+            return result;
+        }
 
         public bool this[int index]
         {
@@ -19,7 +27,7 @@ namespace CssFrameworkDefine
                     throw new ArgumentException();
                 var num = index >> 6;
                 var offset = index & 63;
-                return (mask[num] & ((ulong)1 << offset )) != 0;
+                return (mask[num] & ((ulong)1 << offset)) != 0;
             }
             set
             {
@@ -35,10 +43,10 @@ namespace CssFrameworkDefine
         public override bool Equals(object obj)
         {
             var other = obj as BitMask;
-            if(other == null)
+            if (other == null)
                 return false;
 
-            for(int i = 0; i < mask.Length; i++)
+            for (int i = 0; i < mask.Length; i++)
             {
                 if (mask[i] != other.mask[i])
                     return false;

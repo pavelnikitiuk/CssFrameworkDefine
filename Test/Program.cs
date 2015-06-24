@@ -55,13 +55,11 @@ namespace Test
 
         static void Main(string[] args)
         {
-
             string path, frameworkPath;
             Console.WriteLine("Write path to tests floder");
             path = Console.ReadLine();
             Console.WriteLine("Write path to framework floder");
             frameworkPath = Console.ReadLine();
-
             Start(path, frameworkPath);
         }
     }

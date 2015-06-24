@@ -105,7 +105,7 @@ namespace CssFrameworkDefine
         public Dictionary<string, int> Define(string css)
         {
             Dictionary<string, int> result = new Dictionary<string, int>();
-            foreach(var name in frameworksNameCollection)
+            foreach (var name in frameworksNameCollection)
             {
                 result.Add(name, 0);
             }
@@ -131,7 +131,7 @@ namespace CssFrameworkDefine
                 style.Properties = rule.Value;
                 if (!originalFrameworks.ContainsKey(style))
                     continue;
-                foreach (var name in  originalFrameworks[style])
+                foreach (var name in originalFrameworks[style])
                     result[name]++;
             }
 
@@ -160,18 +160,13 @@ namespace CssFrameworkDefine
             foreach (var rule in rules)
             {
                 var mask = new BitMask();
-                
+
                 foreach (var propery in rule.Declarations.Properties)
-                {
                     if (CssProperties.ContainsKey(propery.Name))
                         mask[CssProperties[propery.Name]] = true;
-                }
                 var key = rule.Selector.ToString();
                 if (Dictionary.ContainsKey(key))
-                    for (int i = 0; i < CssProperties.Values.Count; i++)
-                    {
-                        Dictionary[key][i] = mask[i] || Dictionary[key][i];
-                    }
+                    Dictionary[key] |= mask;
                 else
                     Dictionary.Add(key, mask);
             }
