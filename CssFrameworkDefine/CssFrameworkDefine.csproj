@@ -50,6 +50,7 @@
     <Compile Include="CssDefineException.cs" />
     <Compile Include="Model\ConstantsProperties.cs" />
     <Compile Include="Definer.cs" />
+    <Compile Include="Model\FrameworkName.cs" />
     <Compile Include="Model\Style.cs" />
     <Compile Include="Model\CssProperty.cs" />
     <Compile Include="CssLoader.cs" />

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using CssFrameworkDefine;
 using System.Diagnostics;
+using ExCSS;
 
 namespace Test
 {
@@ -21,33 +22,52 @@ namespace Test
         }
 
 
-        public static void Start(string testsPath, string frameworksPath, string pattern = "*.txt")
+        public static void Start(string testsPath, string frameworksPath, string pattern = "*.css")
         {
-
+            var stream1 = File.Create("Table.csv");
+            stream1.Dispose();
+            File.AppendAllText("Table.csv", "Table,");
 
             Definer d = new Definer();
             //Add all frameworks
             foreach (var name in Load(frameworksPath))
-                d.AddFramework(name.Key, name.Value);
+            {
+                int i = 0;
+                Parser p = new Parser();
+                foreach (var file in name.Value)
+                    d.AddFramework(name.Key, File.ReadAllText(file));
+                
+                File.AppendAllText("Table.csv", String.Format("{0},", name.Key));
+            }
 
             Stopwatch timer = new Stopwatch();
             timer.Start();
 
             var stream = File.Create(Properties.Resources.Result);
             stream.Dispose();
-            foreach (var file in Directory.EnumerateFiles(testsPath, pattern, SearchOption.AllDirectories))
-            {
-                Console.WriteLine("{0}", file);
-                try
+
+            
+                foreach (var file in Directory.EnumerateFiles(testsPath,"*.txt",SearchOption.AllDirectories))
                 {
-                    var res = d.Define(File.ReadAllText(file));
-                    var resultframework = res[d.MostSuitableFramework];
-                    File.AppendAllText(Properties.Resources.Result,
-                        String.Format("File: {0} use {1} matches {2}\n",
-                        file, resultframework == 0 ? Properties.Resources.UnknownFramework : d.MostSuitableFramework, resultframework));
+                    Console.WriteLine(file);
+                    try
+                    {
+                        var result = d.Define(File.ReadAllText(file));
+                        var framework = result.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+                        KeyValuePair<string, double> answer;
+                        if(result[framework] == 0)
+                            answer = new KeyValuePair<string, double>("Unknown Framework", 0);
+                        else
+                            answer = new KeyValuePair<string, double>(framework, result[framework]);
+                        File.AppendAllText("result.txt", String.Format("File {0} use {1} % {2}\n", file, answer.Key, answer.Value.ToString("F2")));
+                    }
+                    catch
+                    {
+                        File.AppendAllText("result.txt", "It does not css");
+                    }
                 }
-                catch { File.AppendAllText(Properties.Resources.Result, String.Format("{0} - it does not css\n", file)); }
-            }
+            
+            
             timer.Stop();
             File.AppendAllText(Properties.Resources.Result, String.Format("Tottal time - {0}", timer.ElapsedMilliseconds.ToString()));
         }
@@ -55,11 +75,9 @@ namespace Test
 
         static void Main(string[] args)
         {
-            string path, frameworkPath;
-            Console.WriteLine("Write path to tests floder");
-            path = Console.ReadLine();
-            Console.WriteLine("Write path to framework floder");
-            frameworkPath = Console.ReadLine();
+            var path = "D:\\projects\\Tests\\CssDefiner\\AllTests";
+            var frameworkPath = "D:\\CssFrameworks";
+
             Start(path, frameworkPath);
         }
     }

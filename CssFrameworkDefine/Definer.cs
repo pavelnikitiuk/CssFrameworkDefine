@@ -20,8 +20,8 @@ namespace CssFrameworkDefine
         /// <summary>
         /// list of original css frameworks
         /// </summary>
-        private Dictionary<Style, List<string>> originalFrameworks;
-        private List<string> frameworksNameCollection { get; set; }
+        private Dictionary<Style, List<FrameworkName>> originalFrameworks;
+        private Dictionary<string, List<int>> frameworksNameCollection { get; set; }
         /// <summary>
         /// Css Parser
         /// </summary>
@@ -33,11 +33,13 @@ namespace CssFrameworkDefine
 
         public Definer()
         {
-            frameworksNameCollection = new List<string>();
+            //originalFrameworkCount = new Dictionary<string, int>();
+
+            frameworksNameCollection = new Dictionary<string, List<int>>();
 
             CssProperties = new Dictionary<string, int>();
 
-            originalFrameworks = new Dictionary<Style, List<string>>();
+            originalFrameworks = new Dictionary<Style, List<FrameworkName>>();
 
             parser = new Parser();
 
@@ -51,36 +53,24 @@ namespace CssFrameworkDefine
         /// Add original framework
         /// </summary>
         /// <param name="name">Name of Framework</param>
-        /// <param name="paths">Array of paths in framework </param>
-        public void AddFramework(string name, params string[] paths)
+        /// <param name="paths">Array of framework </param>
+        public void AddFramework(string name, string css)
         {
-            frameworksNameCollection.Add(name);
-            foreach (var path in paths)
-            {
-                var dictionary = Load(path);
-                foreach (var style in dictionary)
-                {
-                    var toAdd = new Style { Properties = style.Value, Name = style.Key };
-                    if (originalFrameworks.ContainsKey(toAdd))
-                        originalFrameworks[toAdd].Add(name);
-                    else
-                        originalFrameworks.Add(toAdd, new List<string> { name });
-                }
+            var dictionary = Load(css);
 
+            if (frameworksNameCollection.ContainsKey(name))
+                frameworksNameCollection[name].Add(dictionary.Count);
+            else frameworksNameCollection.Add(name, new List<int> { dictionary.Count});
+            //Framework contains for name of all framework and number of file
+
+            foreach (var style in dictionary)
+            {
+                var toAdd = new Style { Properties = style.Value, Name = style.Key };
+                if (originalFrameworks.ContainsKey(toAdd))
+                    originalFrameworks[toAdd].Add(new FrameworkName { Name = name, Number = frameworksNameCollection[name].Count});
+                else
+                    originalFrameworks.Add(toAdd, new List<FrameworkName> { new FrameworkName { Name = name, Number = frameworksNameCollection[name].Count } });
             }
-        }
-        /// <summary>
-        /// Add original framework
-        /// </summary>
-        /// <param name="name">Name of Framework</param>
-        /// <param name="paths">Array of paths in framework </param>
-        /// <param name="time">Time of work</param>
-        public void AddFramework(string name, out Stopwatch time, params string[] paths)
-        {
-            time = new Stopwatch();
-            time.Start();
-            AddFramework(name, paths);
-            time.Stop();
         }
 
         /// <summary>
@@ -89,7 +79,7 @@ namespace CssFrameworkDefine
         /// <param name="css">css file</param>
         /// <param name="t">time of work</param>
         /// <returns>Dictionary key - the name of the framework, the value - the number of matches found</returns>
-        public Dictionary<string, int> Define(string css, out Stopwatch t)
+        public Dictionary<string, float> Define(string css, out Stopwatch t)
         {
             t = new Stopwatch();
             t.Start();
@@ -102,10 +92,13 @@ namespace CssFrameworkDefine
         /// </summary>
         /// <param name="css">css file</param>
         /// <returns>Dictionary key - the name of the framework, the value - the number of matches found</returns>
-        public Dictionary<string, int> Define(string css)
+        public Dictionary<string, float> Define(string css)
         {
-            Dictionary<string, int> result = new Dictionary<string, int>();
-            foreach (var name in frameworksNameCollection)
+            Dictionary<string, float> result = new Dictionary<string, float>();
+
+            Dictionary<FrameworkName, int> searchResult = new Dictionary<FrameworkName, int>();
+
+            foreach (var name in frameworksNameCollection.Keys)
             {
                 result.Add(name, 0);
             }
@@ -132,22 +125,28 @@ namespace CssFrameworkDefine
                 if (!originalFrameworks.ContainsKey(style))
                     continue;
                 foreach (var name in originalFrameworks[style])
-                    result[name]++;
+                {
+                    if (searchResult.ContainsKey(name))
+                        searchResult[name]++;
+                    else
+                        searchResult.Add(name, 1);
+                }
             }
 
-            MostSuitableFramework = result.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+            foreach(var name in result.Keys.ToList())
+            {
+                var ans = searchResult.Where(x=>x.Key.Name == name).Select(x=> (double)x.Value/ frameworksNameCollection[x.Key.Name][x.Key.Number-1]);
+                result[name] = (float)ans.Sum()/frameworksNameCollection[name].Count() *100;
+            }
+            
+
             return result;
         }
 
 
-        private Dictionary<string, BitMask> Load(string path)
+        private Dictionary<string, BitMask> Load(string css)
         {
-            if (path == null)
-                throw new ArgumentNullException("Path can not be null");
-            if (!File.Exists(path))
-                throw new FileNotFoundException("This file is not exists");
-
-            return Load(parser.Parse(File.ReadAllText(path)).StyleRules);
+            return Load(parser.Parse(css).StyleRules);
         }
 
         private Dictionary<string, BitMask> Load(IList<ExCSS.StyleRule> rules)
