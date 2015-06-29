@@ -9,6 +9,7 @@ using System.IO;
 using System.Collections;
 using System.Diagnostics;
 
+
 namespace CssFrameworkDefine
 {
     public class Definer
@@ -60,14 +61,14 @@ namespace CssFrameworkDefine
 
             if (frameworksNameCollection.ContainsKey(name))
                 frameworksNameCollection[name].Add(dictionary.Count);
-            else frameworksNameCollection.Add(name, new List<int> { dictionary.Count});
+            else frameworksNameCollection.Add(name, new List<int> { dictionary.Count });
             //Framework contains for name of all framework and number of file
 
             foreach (var style in dictionary)
             {
                 var toAdd = new Style { Properties = style.Value, Name = style.Key };
                 if (originalFrameworks.ContainsKey(toAdd))
-                    originalFrameworks[toAdd].Add(new FrameworkName { Name = name, Number = frameworksNameCollection[name].Count});
+                    originalFrameworks[toAdd].Add(new FrameworkName { Name = name, Number = frameworksNameCollection[name].Count });
                 else
                     originalFrameworks.Add(toAdd, new List<FrameworkName> { new FrameworkName { Name = name, Number = frameworksNameCollection[name].Count } });
             }
@@ -94,17 +95,8 @@ namespace CssFrameworkDefine
         /// <returns>Dictionary key - the name of the framework, the value - the number of matches found</returns>
         public Dictionary<string, float> Define(string css)
         {
-            Dictionary<string, float> result = new Dictionary<string, float>();
-
-            Dictionary<FrameworkName, int> searchResult = new Dictionary<FrameworkName, int>();
-
-            foreach (var name in frameworksNameCollection.Keys)
-            {
-                result.Add(name, 0);
-            }
-
+            Dictionary<string, int[]> searchResult = new Dictionary<string, int[]>();
             IList<ExCSS.StyleRule> stylesheet;
-
             try
             {
                 stylesheet = parser.Parse(css).StyleRules;
@@ -113,11 +105,8 @@ namespace CssFrameworkDefine
             {
                 throw;
             }
-
             var styleRules = Load(stylesheet);
-
             var style = new Style();
-
             foreach (var rule in styleRules)
             {
                 style.Name = rule.Key;
@@ -126,23 +115,37 @@ namespace CssFrameworkDefine
                     continue;
                 foreach (var name in originalFrameworks[style])
                 {
-                    if (searchResult.ContainsKey(name))
-                        searchResult[name]++;
+                    if (searchResult.ContainsKey(name.Name))
+                        searchResult[name.Name][name.Number-1]++;
                     else
-                        searchResult.Add(name, 1);
+                    {
+                        searchResult.Add(name.Name, new int[frameworksNameCollection[name.Name].Count]);
+                        searchResult[name.Name][name.Number-1]++;
+                    }
                 }
             }
-
-            foreach(var name in result.Keys.ToList())
-            {
-                var ans = searchResult.Where(x=>x.Key.Name == name).Select(x=> (double)x.Value/ frameworksNameCollection[x.Key.Name][x.Key.Number-1]);
-                result[name] = (float)ans.Sum()/frameworksNameCollection[name].Count() *100;
-            }
-            
-
-            return result;
+            return GetAnswer(searchResult);
         }
 
+
+        private Dictionary<string,float> GetAnswer(Dictionary<string,int[]> matchesResult)
+        {
+            Dictionary<string, float> result = new Dictionary<string, float>();
+
+            foreach (var name in frameworksNameCollection.Keys)
+            {
+                result.Add(name, 0);
+            }
+            foreach (var name in matchesResult.Keys)
+            {
+                var frameworkname = frameworksNameCollection[name];
+                var sresult = matchesResult[name];
+                for (int i = 0; i < frameworkname.Count; i++)
+                    result[name] += (float)sresult[i] / frameworkname[i];
+                result[name] /= (float)frameworkname.Count / 100;
+            }
+            return result;
+        }
 
         private Dictionary<string, BitMask> Load(string css)
         {
