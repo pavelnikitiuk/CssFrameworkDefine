@@ -46,7 +46,7 @@ namespace CssFrameworkDefine
         /// <summary>
         /// Dictonary of last check
         /// </summary>
-        private Dictionary<string, float> lastСheck;
+        private Dictionary<string, float> lastСheck = new Dictionary<string,float>();
 
         public Definer()
         {
@@ -201,7 +201,7 @@ namespace CssFrameworkDefine
                 else
                     Dictionary.Add(key, mask);
             }
-            //return Dictionary selector- properties mask
+            //return Dictionary selector - properties mask
             return Dictionary;
         }
 
