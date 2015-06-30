@@ -20,7 +20,7 @@ namespace CssFrameworkDefine
         /// <summary>
         /// list of original css frameworks
         /// </summary>
-        private Dictionary<Style, List<FrameworkName>> originalFrameworks;
+        private Dictionary<Style, List<string>> originalFrameworks;
         /// <summary>
         /// Threshold value for detect framewotk
         /// </summary>
@@ -28,7 +28,7 @@ namespace CssFrameworkDefine
         /// <summary>
         /// Dictonary of name and rule count in framework
         /// </summary>
-        private Dictionary<string, List<int>> frameworksNameCollection { get; set; }
+        private Dictionary<string, int> frameworksNameCollection { get; set; }
         /// <summary>
         /// Css Parser
         /// </summary>
@@ -51,11 +51,11 @@ namespace CssFrameworkDefine
         public Definer()
         {
 
-            frameworksNameCollection = new Dictionary<string, List<int>>();
+            frameworksNameCollection = new Dictionary<string, int>();
 
             CssProperties = new Dictionary<string, int>();
 
-            originalFrameworks = new Dictionary<Style, List<FrameworkName>>();
+            originalFrameworks = new Dictionary<Style, List<string>>();
 
             parser = new Parser();
 
@@ -75,17 +75,17 @@ namespace CssFrameworkDefine
             var dictionary = Load(css);
 
             if (frameworksNameCollection.ContainsKey(name))
-                frameworksNameCollection[name].Add(dictionary.Count);
-            else frameworksNameCollection.Add(name, new List<int> { dictionary.Count });
+                frameworksNameCollection[name]+=dictionary.Count;
+            else frameworksNameCollection.Add(name,  dictionary.Count );
             //Framework contains for name of all framework and number of file
 
             foreach (var style in dictionary)
             {
                 var toAdd = new Style { Properties = style.Value, Name = style.Key };
                 if (originalFrameworks.ContainsKey(toAdd))
-                    originalFrameworks[toAdd].Add(new FrameworkName { Name = name, Number = frameworksNameCollection[name].Count });
+                    originalFrameworks[toAdd].Add(name);
                 else
-                    originalFrameworks.Add(toAdd, new List<FrameworkName> { new FrameworkName { Name = name, Number = frameworksNameCollection[name].Count } });
+                    originalFrameworks.Add(toAdd, new List<string> {name });
             }
         }
 
@@ -112,17 +112,14 @@ namespace CssFrameworkDefine
         {
             if (ThresholdValue == 0)
                 ThresholdValue = 70;
-            Dictionary<string, int[]> searchResult = new Dictionary<string, int[]>();
-            IList<ExCSS.StyleRule> stylesheet;
-            try
-            {
-                stylesheet = parser.Parse(css).StyleRules;
-            }
-            catch
-            {
-                throw new CssDefineException(Properties.Resources.Exception);
-            }
-            var styleRules = Load(stylesheet);
+            
+            Dictionary<string, float> searchResult = new Dictionary<string, float>();
+
+            foreach (var name in frameworksNameCollection.Keys)
+                searchResult.Add(name, 0);
+
+            var styleRules = Load(css);
+
             var style = new Style();
             foreach (var rule in styleRules)
             {
@@ -131,42 +128,12 @@ namespace CssFrameworkDefine
                 if (!originalFrameworks.ContainsKey(style))
                     continue;
                 foreach (var name in originalFrameworks[style])
-                {
-                    if (searchResult.ContainsKey(name.Name))
-                        searchResult[name.Name][name.Number-1]++;
-                    else
-                    {
-                        searchResult.Add(name.Name, new int[frameworksNameCollection[name.Name].Count]);
-                        searchResult[name.Name][name.Number-1]++;
-                    }
-                }
+                        searchResult[name]++;
             }
-            var a = GetAnswer(searchResult);
-            lastСheck = new Dictionary<string, float>(a);
-            return a;
-        }
-
-
-      
-
-        private Dictionary<string,float> GetAnswer(Dictionary<string,int[]> matchesResult)
-        {
-            Dictionary<string, float> result = new Dictionary<string, float>();
-
-            foreach (var name in frameworksNameCollection.Keys)
-            {
-                result.Add(name, 0);
-            }
-            foreach (var name in matchesResult.Keys)
-            {
-                var frameworkname = frameworksNameCollection[name];
-                var sresult = matchesResult[name];
-                for (int i = 0; i < frameworkname.Count; i++)
-                    result[name] += (float)sresult[i] / frameworkname[i];
-                result[name] /= (float)frameworkname.Count / 100;
-            }
-            
-            return result;
+            foreach(var ans in searchResult.Keys.ToList())
+                searchResult[ans] /= (float)frameworksNameCollection[ans] / 100;
+            lastСheck = new Dictionary<string, float>(searchResult);
+            return searchResult;
         }
 
         private Dictionary<string, BitMask> Load(string css)
