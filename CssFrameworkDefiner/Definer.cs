@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using CssFrameworkDefine.Model;
 using ExCSS;
-using System.IO;
 using System.Collections;
 using System.Diagnostics;
 
@@ -22,19 +21,35 @@ namespace CssFrameworkDefine
         /// list of original css frameworks
         /// </summary>
         private Dictionary<Style, List<FrameworkName>> originalFrameworks;
+        /// <summary>
+        /// Threshold value for detect framewotk
+        /// </summary>
+        public float ThresholdValue {get; set;}
+        /// <summary>
+        /// Dictonary of name and rule count in framework
+        /// </summary>
         private Dictionary<string, List<int>> frameworksNameCollection { get; set; }
         /// <summary>
         /// Css Parser
         /// </summary>
         private Parser parser;
         /// <summary>
-        /// Name of result framework
+        /// Name of result framework and % of matches
         /// </summary>
-        public string MostSuitableFramework { get; private set; }
+        public KeyValuePair<string, float> MostSuitableFramework 
+        {
+            get
+            {
+                return lastСheck.FirstOrDefault(x => x.Value > ThresholdValue);
+            }
+        }
+        /// <summary>
+        /// Dictonary of last check
+        /// </summary>
+        private Dictionary<string, float> lastСheck;
 
         public Definer()
         {
-            //originalFrameworkCount = new Dictionary<string, int>();
 
             frameworksNameCollection = new Dictionary<string, List<int>>();
 
@@ -95,6 +110,8 @@ namespace CssFrameworkDefine
         /// <returns>Dictionary key - the name of the framework, the value - the number of matches found</returns>
         public Dictionary<string, float> Define(string css)
         {
+            if (ThresholdValue == 0)
+                ThresholdValue = 70;
             Dictionary<string, int[]> searchResult = new Dictionary<string, int[]>();
             IList<ExCSS.StyleRule> stylesheet;
             try
@@ -103,7 +120,7 @@ namespace CssFrameworkDefine
             }
             catch
             {
-                throw;
+                throw new CssDefineException(Properties.Resources.Exception);
             }
             var styleRules = Load(stylesheet);
             var style = new Style();
@@ -124,9 +141,13 @@ namespace CssFrameworkDefine
                     }
                 }
             }
-            return GetAnswer(searchResult);
+            var a = GetAnswer(searchResult);
+            lastСheck = new Dictionary<string, float>(a);
+            return a;
         }
 
+
+      
 
         private Dictionary<string,float> GetAnswer(Dictionary<string,int[]> matchesResult)
         {
@@ -144,12 +165,20 @@ namespace CssFrameworkDefine
                     result[name] += (float)sresult[i] / frameworkname[i];
                 result[name] /= (float)frameworkname.Count / 100;
             }
+            
             return result;
         }
 
         private Dictionary<string, BitMask> Load(string css)
         {
-            return Load(parser.Parse(css).StyleRules);
+            IList<StyleRule> style;
+            try
+            {
+                style = parser.Parse(css).StyleRules;
+            }
+            catch { throw new CssDefineException(Properties.Resources.Exception); }
+            
+            return Load(style);
         }
 
         private Dictionary<string, BitMask> Load(IList<ExCSS.StyleRule> rules)
@@ -175,5 +204,6 @@ namespace CssFrameworkDefine
             //return Dictionary selector- properties mask
             return Dictionary;
         }
+
     }
 }

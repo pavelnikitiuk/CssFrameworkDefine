@@ -120,4 +120,7 @@
   <data name="Exception" xml:space="preserve">
     <value>This file does not css</value>
   </data>
+  <data name="NullDictionary" xml:space="preserve">
+    <value>Dictionary is null. You must strart Define at first</value>
+  </data>
 </root>

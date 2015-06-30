@@ -68,5 +68,14 @@ namespace CssFrameworkDefine.Properties {
                 return ResourceManager.GetString("Exception", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dictionary is null. You must strart Define at first.
+        /// </summary>
+        internal static string NullDictionary {
+            get {
+                return ResourceManager.GetString("NullDictionary", resourceCulture);
+            }
+        }
     }
 }

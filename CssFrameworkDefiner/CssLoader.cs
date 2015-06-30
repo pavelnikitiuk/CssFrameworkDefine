@@ -32,18 +32,25 @@ namespace CssFrameworkDefine
             using (var myWebClient = new WebClient())
             {
                 myWebClient.Headers["User-Agent"] = "MOZILLA/5.0 (WINDOWS NT 6.1; WOW64) APPLEWEBKIT/537.1 (KHTML, LIKE GECKO) CHROME/21.0.1180.75 SAFARI/537.1";
-                return myWebClient.DownloadString(url);
+                try
+                {
+                    return myWebClient.DownloadString(url);
+                }
+                catch
+                {
+                    return null;
+                }
             }
         }
 
-        public IEnumerable<string> LoadLinks()
+        public IEnumerable<KeyValuePair<string,string>> LoadLinks()
         {
             foreach (HtmlNode link in document.DocumentNode.SelectNodes("//link[@rel='stylesheet']"))
             {
                 var href = link.Attributes.FirstOrDefault(x => x.Name == "href"); //take href
                 if (href == null)
                     continue;
-                yield return Load(MakeUrl(href.Value));
+                yield return new KeyValuePair<string, string>(href.Value, Load(MakeUrl(href.Value)));
             }
         }
         private string MakeUrl(string str)
